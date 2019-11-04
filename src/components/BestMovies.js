@@ -4,7 +4,7 @@ class BestMovies extends Component {
   
   render() {
     return (
-      <div className="section">
+      <div className="section movies-container">
         Best Movies
       </div>
     );
