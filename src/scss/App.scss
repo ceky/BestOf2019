@@ -1,22 +1,48 @@
 %container {
   background-size: cover;
   background-blend-mode: multiply;
+  background-position: center;
 }
 
 .home-container {
   @extend %container;
-  background-image: url('./../assets/home.jpg');  
-  background-color: #51B7D3;
+  background-image: url("./../assets/home.jpg");
+  background-color: #184e5d;
 }
 
 .movies-container {
   @extend %container;
-  background-image: url('./../assets/movies.jpg');
-  background-color: #d3518d;
+  background-image: url("./../assets/movies.jpg");
+  background-color: #461125;
 }
 
 .documentaries-container {
   @extend %container;
-  background-image: url('./../assets/documentaries.jpg');  
-  background-color: #4cc978d1;
+  background-image: url("./../assets/documentaries.jpg");
+  background-color: #173e25;
+}
+
+.books-container {
+  @extend %container;
+  background-image: url("./../assets/books.jpg");
+  background-color: #163a48;
+}
+
+.songs-container {
+  @extend %container;
+  background-image: url("./../assets/songs.jpg");
+  background-color: #4a350f;
+}
+
+.youtube-container {
+  @extend %container;
+  background-image: url("./../assets/youtube.jpg");
+  background-color: #104e3a;
+  background-position: left;
+}
+
+.technical-container {
+  @extend %container;
+  background-image: url("./../assets/technology.jpg");
+  background-color: #1b6c8c;
 }
