@@ -1,0 +1,22 @@
+%container {
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.home-container {
+  @extend %container;
+  background-image: url('./../assets/home.jpg');  
+  background-color: #51B7D3;
+}
+
+.movies-container {
+  @extend %container;
+  background-image: url('./../assets/movies.jpg');
+  background-color: #d3518d;
+}
+
+.documentaries-container {
+  @extend %container;
+  background-image: url('./../assets/documentaries.jpg');  
+  background-color: #4cc978d1;
+}
