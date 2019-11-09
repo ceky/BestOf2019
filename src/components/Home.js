@@ -8,10 +8,12 @@ class Home extends Component {
   render() {
     return (
       <div className="section home-container">
-        <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={() => this.props.fullpageApi.moveSectionDown()}>
-          Click me to move down
-        </button>
+        <div className="page-container">
+          <img src={logo} className="App-logo" alt="logo" />
+          <button onClick={() => this.props.fullpageApi.moveSectionDown()}>
+            Click me to move down
+          </button>
+        </div>
       </div>
     );
   }
