@@ -14,6 +14,14 @@ http://ceky-2019.surge.sh
 
 A library to create full screen pages https://alvarotrigo.com/fullPage/
 
+- React burger menu
+
+https://github.com/negomi/react-burger-menu
+
+- Noun Project
+
+A collection of svg icons https://thenounproject.com/
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,10 +1,42 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
+  width: 26px;
+  height: 17px;
+  right: 36px;
   top: 36px;
+
+  &:before {
+    content: "";
+    width: 54px;
+    height: 54px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: -19px;
+    left: -14px;
+    border-radius: 27px;
+  }
+
+  button {
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bm-burger-button {
+    width: 20px;
+    height: 12px;
+    right: 24px;
+    top: 24px;
+
+    &:before {
+      width: 40px;
+      height: 40px;
+      top: -14px;
+      left: -10px;
+    }
+  }
 }
 
 /* Color/shape of burger icon bars */
@@ -26,6 +58,12 @@
 /* Color/shape of close button cross */
 .bm-cross {
   background: #5d686f;
+}
+
+.bm-cross-button {
+  button {
+    outline: none;
+  }
 }
 
 /*
@@ -52,7 +90,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: #1d1d1c;
   padding: 0.8em;
   height: auto !important;
 }
@@ -60,6 +98,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Individual item */
 .bm-item {
   display: inline-block;
+  padding: 0.5rem;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
 }
 
 /* Styling of overlay */

@@ -8,10 +8,10 @@ import BestBooks from './components/BestBooks';
 import BestSongs from './components/BestSongs';
 import BestYoutube from './components/BestYoutube';
 import BestTechnical from './components/BestTechnical';
+import BurgerMenu from './components/BurgerMenu';
 
 import './scss/App.scss';
 import './scss/BurgerMenu.scss';
-import BurgerMenu from './components/BurgerMenu';
 
 class App extends Component {
 
