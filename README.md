@@ -18,9 +18,17 @@ A library to create full screen pages https://alvarotrigo.com/fullPage/
 
 https://github.com/negomi/react-burger-menu
 
+- Gradient Magic
+
+https://www.gradientmagic.com/
+
 - Noun Project
 
 A collection of svg icons https://thenounproject.com/
+
+- Font
+
+https://www.onlinewebfonts.com/download/af09406ada46b2e73880f928807d3723
 
 ---
 

@@ -15,14 +15,25 @@ import './scss/BurgerMenu.scss';
 
 class App extends Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeIndex: -1
+    }
+  }
+
+  afterLoad(origin, destination, direction) { 
+    this.setState({activeIndex: destination.index + 1});
+  }
+
   render() {
-  
     return (
       <div>
-        <BurgerMenu/>
+        <BurgerMenu activeIndex={this.state.activeIndex}/>
         <ReactFullpage
           licenseKey = '^9hrscI$n7'
           scrollingSpeed = {1000}
+          afterLoad={this.afterLoad.bind(this)}
           render={({ state, fullpageApi }) => {
             window.fullpageApi = fullpageApi;
             

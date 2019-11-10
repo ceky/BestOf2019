@@ -51,8 +51,7 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  display: none;
 }
 
 /* Color/shape of close button cross */
@@ -73,12 +72,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  width: 260px !important;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #ececec;
-  padding: 2.5em 1.5em 0;
+  background: white;
+  padding: 0;
   font-size: 1.15em;
   height: 100vh !important;
 }
@@ -91,20 +91,63 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Wrapper for item list */
 .bm-item-list {
   color: #1d1d1c;
-  padding: 0.8em;
+  padding: 0;
   height: auto !important;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
-  padding: 0.5rem;
+  padding: 0.5rem 2rem;
   font-weight: 700;
   outline: none;
   cursor: pointer;
+
+  &.item-active {
+    background-color: #e5e5e5;
+  }
+
+  &:hover {
+    background-color: #f2f2f2;
+  }
+
+  &:active {
+    background-color: #e5e5e5;
+  }
 }
 
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-title__container {
+  display: flex !important;
+  align-items: center;
+  cursor: default;
+  margin-top: 1rem;
+  margin-left: 13px;
+  margin-bottom: 1rem;
+
+  &:hover {
+    background-color: white;
+  }
+
+  &:active {
+    background-color: white;
+  }
+
+  .menu-title__icon {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxuczp4PSJodHRwOi8vbnMuYWRvYmUuY29tL0V4dGVuc2liaWxpdHkvMS4wLyIgeG1sbnM6aT0iaHR0cDovL25zLmFkb2JlLmNvbS9BZG9iZUlsbHVzdHJhdG9yLzEwLjAvIiB4bWxuczpncmFwaD0iaHR0cDovL25zLmFkb2JlLmNvbS9HcmFwaHMvMS4wLyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM6YT0iaHR0cDovL25zLmFkb2JlLmNvbS9BZG9iZVNWR1ZpZXdlckV4dGVuc2lvbnMvMy4wLyIgdmVyc2lvbj0iMS4xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEwMCAxMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxtZXRhZGF0YT48P3hwYWNrZXQgYmVnaW49IiYjNjUyNzk7IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+PHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS41LWMwMTQgNzkuMTUxNzM5LCAyMDEzLzA0LzAzLTEyOjEyOjE1ICAgICAgICAiPjwveDp4bXBtZXRhPjw/eHBhY2tldCBlbmQ9InciPz48L21ldGFkYXRhPjxwb2x5Z29uIHBvaW50cz0iNDEuNSw3OSA0MCw3OSAyOSw3OSAyOSw4NiA1MCw4NiA3MSw4NiA3MSw3OSA2MCw3OSA1OC41LDc5ICI+PC9wb2x5Z29uPjxwb2x5Z29uIHBvaW50cz0iNzYuNSw0MS44NzkxNTA0IDg2LDM0LjI3OTI5NjkgODYsMTkgNzYuNSwxOSAiPjwvcG9seWdvbj48cGF0aCBkPSJNNzMuNSwxNEg1MEgyNi41djM1LjI1bDIwLDE1Vjc0aC01djJoMTd2LTJoLTV2LTkuNzVsMjAtMTVWMTR6IE01OS40NTUwNzgxLDUwLjUxMjY5NTNMNTAsNDUuMjE0ODQzOGwtOS40NTUwNzgxLDUuMjk3ODUxNiAgbDIuMTE4MTY0MS0xMC42Mjg5MDYzbC03Ljk2MTkxNDEtNy4zNTQ0OTIybDEwLjc2NDY0ODQtMS4yNzA1MDc4TDUwLDIxLjQxNDA2MjVsNC41MzQxNzk3LDkuODQ0NzI2NmwxMC43NjQ2NDg0LDEuMjcwNTA3OCAgbC03Ljk2MTkxNDEsNy4zNTQ0OTIyTDU5LjQ1NTA3ODEsNTAuNTEyNjk1M3oiPjwvcGF0aD48cG9seWdvbiBwb2ludHM9IjE0LDM0LjI3OTI5NjkgMjMuNSw0MS44NzkxNTA0IDIzLjUsMTkgMTQsMTkgIj48L3BvbHlnb24+PHBvbHlnb24gcG9pbnRzPSI1Mi41MTI2OTUzLDM0LjA0MTk5MjIgNTAsMjguNTg1OTM3NSA0Ny40ODczMDQ3LDM0LjA0MTk5MjIgNDEuNTIxNDg0NCwzNC43NDUxMTcyIDQ1LjkzNDU3MDMsMzguODIxMjg5MSAgIDQ0Ljc1OTc2NTYsNDQuNzExOTE0MSA1MCw0MS43NzUzOTA2IDU1LjI0MDIzNDQsNDQuNzExOTE0MSA1NC4wNjU0Mjk3LDM4LjgyMTI4OTEgNTguNDc4NTE1NiwzNC43NDUxMTcyICI+PC9wb2x5Z29uPjwvc3ZnPg==");
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.8rem;
+    margin-right: 0;
+  }
+
+  .menu-title__text {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
 }

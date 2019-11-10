@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "FF Enzo";
+  src: url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.eot");
+  src: url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/af09406ada46b2e73880f928807d3723.svg#FF Enzo")
+      format("svg");
+}
+
+body {
+  font-family: "FF Enzo";
+}
+
 .fp-tableCell {
   vertical-align: initial;
 }

@@ -9,40 +9,54 @@ class BurgerMenu extends Component {
     const element = document.getElementsByClassName("bm-overlay")[0];
     element.click();
     window.fullpageApi.moveTo(index);
-  }  
+    // this.setState({activeIndex: index});
+  }
+
+  onMenuOpenStateChange = (state) => {
+    // if (state.isOpen) {
+    //   this.setState({activeIndex: window.activeIndex + 1});
+    // }
+  }
 
   render() {
     return (
-      <Menu right>
-        <div onClick={ (e) => this.goToSlide(1, e) }>
-          <i className="icon icon-home"></i>
-          <span>Home</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(2, e) }>
-          <i className="icon icon-movies"></i>
-          <span>Movies</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(3, e) }>
-          <i className="icon icon-documentaries"></i>
-          <span>Documentaries</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(4, e) }>
-          <i className="icon icon-books"></i>
-          <span>Books</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(5, e) }>
-          <i className="icon icon-songs"></i>
-          <span>Songs</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(6, e) }>
-          <i className="icon icon-youtube"></i>
-          <span>Youtube</span>
-        </div>
-        <div onClick={ (e) => this.goToSlide(7, e) }>
-          <i className="icon icon-technical"></i>
-          <span>Technical</span>
-        </div>
-      </Menu>
+      <div>
+        <Menu right onStateChange={ this.onMenuOpenStateChange }>
+          <div className="menu-title__container">
+            <h4 className="menu-title__text">Best of 2019</h4>
+            <i className="icon menu-title__icon"></i>
+          </div>
+
+          <div onClick={ (e) => this.goToSlide(1, e) } className={this.props.activeIndex === 1 ? 'item-active': ''}>
+            <i className="icon icon-home"></i>
+            <span>Home</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(2, e) } className={this.props.activeIndex === 2 ? 'item-active': ''}>
+            <i className="icon icon-movies"></i>
+            <span>Movies</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(3, e) } className={this.props.activeIndex === 3 ? 'item-active': ''}>
+            <i className="icon icon-documentaries"></i>
+            <span>Documentaries</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(4, e) } className={this.props.activeIndex === 4 ? 'item-active': ''}>
+            <i className="icon icon-books"></i>
+            <span>Books</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(5, e) } className={this.props.activeIndex === 5 ? 'item-active': ''}>
+            <i className="icon icon-songs"></i>
+            <span>Songs</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(6, e) } className={this.props.activeIndex === 6 ? 'item-active': ''}>
+            <i className="icon icon-youtube"></i>
+            <span>Youtube</span>
+          </div>
+          <div onClick={ (e) => this.goToSlide(7, e) } className={this.props.activeIndex === 7 ? 'item-active': ''}>
+            <i className="icon icon-technical"></i>
+            <span>Technical</span>
+          </div>
+        </Menu>
+      </div>      
     );
   }
 }
