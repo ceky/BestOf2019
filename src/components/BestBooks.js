@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class BestBooks extends Component {
+const BestBooks = () => {
   
-  render() {
-    return (
-      <div className="section books-container">
-        <div className="page-container">
-        Best Books
-        </div>
+  return (
+    <div className="section books-container">
+      <div className="page-container">
+      Best Books
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default BestBooks;

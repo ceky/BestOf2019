@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class BestYoutube extends Component {
+const BestYoutube = () => {
   
-  render() {
-    return (
-      <div className="section youtube-container">
-        <div className="page-container">
-        Best Youtube
-        </div>
+  return (
+    <div className="section youtube-container">
+      <div className="page-container">
+      Best Youtube
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default BestYoutube;

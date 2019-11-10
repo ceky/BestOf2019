@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class BestMovies extends Component {
+const BestMovies = () => {
   
-  render() {
-    return (
-      <div className="section movies-container">
-        <div className="page-container">
-        Best Movies
-        </div>
+  return (
+    <div className="section movies-container">
+      <div className="page-container">
+      Best Movies
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default BestMovies;

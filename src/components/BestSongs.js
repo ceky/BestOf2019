@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class BestSongs extends Component {
+const BestSongs = () => {
   
-  render() {
-    return (
-      <div className="section songs-container">
-        <div className="page-container">
-        Best Songs
-        </div>
+  return (
+    <div className="section songs-container">
+      <div className="page-container">
+      Best Songs
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default BestSongs;
