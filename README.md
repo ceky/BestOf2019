@@ -26,9 +26,10 @@ https://www.gradientmagic.com/
 
 A collection of svg icons https://thenounproject.com/
 
-- Font
+- Fonts
 
 https://www.onlinewebfonts.com/download/af09406ada46b2e73880f928807d3723
+https://fonts.google.com/specimen/Fauna+One?selection.family=Fauna+One
 
 ---
 
