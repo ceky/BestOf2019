@@ -5,6 +5,7 @@
   height: 17px;
   right: 36px;
   top: 36px;
+  transition: 0.3s;
 
   &:before {
     content: "";
@@ -16,6 +17,10 @@
     top: -19px;
     left: -14px;
     border-radius: 27px;
+  }
+
+  &:hover {
+    transform: scale(1.2);
   }
 
   button {
