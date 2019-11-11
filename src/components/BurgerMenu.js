@@ -9,7 +9,6 @@ const BurgerMenu = ({activeIndex}) => {
     const element = document.getElementsByClassName("bm-overlay")[0];
     element.click();
     window.fullpageApi.moveTo(index);
-    // this.setState({activeIndex: index});
   }
 
   return (
