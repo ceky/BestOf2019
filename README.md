@@ -31,6 +31,14 @@ A collection of svg icons https://thenounproject.com/
 https://www.onlinewebfonts.com/download/af09406ada46b2e73880f928807d3723
 https://fonts.google.com/specimen/Fauna+One?selection.family=Fauna+One
 
+- Clippy
+
+A tool to generate for clip-paths https://bennettfeely.com/clippy/
+
+- CSS Shapes
+
+Not a tool really, but still worth mentioning https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Shapes
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

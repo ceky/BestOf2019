@@ -22,8 +22,12 @@ body {
 }
 
 .page-container {
-  padding: 1rem;
-  margin-top: 3rem;
+  margin: 1.5rem;
+  padding: 2rem;
+  margin-top: 5.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  height: calc(100% - 7rem);
 }
 
 %container {
