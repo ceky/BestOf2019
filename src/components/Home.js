@@ -9,7 +9,7 @@ const Home = ({fullpageApi}) => {
   const fade = useSpring({
     from: {
       opacity: 0
-    },
+    }, 
     opacity: 1
   });
   

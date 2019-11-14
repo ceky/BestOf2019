@@ -13,6 +13,34 @@
       format("svg");
 }
 
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 30rem) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 50rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 70rem) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 90rem) {
+  html {
+    font-size: 18px;
+  }
+}
+
 body {
   font-family: "FF Enzo";
 }
@@ -76,7 +104,7 @@ body {
       rgb(56, 84, 69) 85.716%,
       rgb(56, 84, 69) 100.002%
     );
-    background-blend-mode: overlay;
+  background-blend-mode: overlay;
 }
 
 .movies-container {
