@@ -6,8 +6,17 @@
   width: 260px;
   height: 270px;
   float: left;
-  shape-outside: circle(48%);
+  shape-outside: polygon(
+    0px 0px,
+    0px 189px,
+    40.61% 102.72%,
+    54.93% 81.57%,
+    83.61% 52.49%,
+    271px 52px,
+    58.98% 4.21%
+  );
   margin-right: 4rem;
+  margin-bottom: 0.5rem;
 
   .title-background {
     width: 260px;
@@ -32,6 +41,8 @@
 }
 
 .main-container {
+  line-height: 1.5rem;
+
   div {
     margin-bottom: 2rem;
   }
