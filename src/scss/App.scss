@@ -64,6 +64,12 @@ body {
   max-width: 1200px;
 }
 
+@media (max-width: 30rem) {
+  .page-container {
+    padding: 1rem 2rem;
+  }
+}
+
 %container {
   background-blend-mode: multiply;
 }
