@@ -2,48 +2,83 @@
   height: 40vmin;
 }
 
-.title-container {
-  width: 260px;
-  height: 270px;
-  float: left;
-  shape-outside: polygon(
-    0px 0px,
-    0px 189px,
-    40.61% 102.72%,
-    54.93% 81.57%,
-    83.61% 52.49%,
-    271px 52px,
-    58.98% 4.21%
-  );
-  margin-right: 4rem;
-  margin-bottom: 0.5rem;
+.home-container {
+  .page-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
 
-  .title-background {
-    width: 260px;
-    height: 260px;
-    position: absolute;
-    margin-top: 1.5rem;
-  }
+    .title-container {
+      width: 130px;
+      height: 140px;
+      float: left;
+      shape-outside: polygon(
+        -5px 17px,
+        10px 163px,
+        38.63% 109.43%,
+        51.46% 86.94%,
+        65.79% 66.58%,
+        78% 35%,
+        58.48% 12.26%
+      );
+      margin-right: 4rem;
+      margin-bottom: 0.5rem;
 
-  .title {
-    font-family: "Fauna One", serif;
-    display: inline-block;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-5deg);
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    font-size: 3rem;
-    margin-left: 0.3rem;
+      .title-background {
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        margin-top: 1.5rem;
+      }
+
+      .title {
+        font-family: "Fauna One", serif;
+        display: inline-block;
+        position: relative;
+        top: 56%;
+        left: 48%;
+        transform: translate(-50%, -50%) rotate(-5deg);
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        font-size: 1.6rem;
+        margin-left: 0.3rem;
+      }
+    }
+
+    .main-container {
+      line-height: 1.5rem;
+
+      div {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .start-button {
+      text-align: center;
+      width: 100px;
+      font-size: 1.5rem;
+      padding: 0.3rem;
+      background-color: #1e7d74;
+      margin: 0 auto;
+      cursor: pointer;
+      color: white;
+      font-family: "Fauna One", serif;
+      border-radius: 4px;
+      box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
+    }
   }
 }
 
-.main-container {
-  line-height: 1.5rem;
+@media (max-width: 30rem) {
+  .home-container {
+    .page-container {
+      .main-container {
+        line-height: 1.4rem;
 
-  div {
-    margin-bottom: 2rem;
+        div {
+          margin-bottom: 1rem;
+        }
+      }
+    }
   }
 }
