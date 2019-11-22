@@ -25,7 +25,7 @@ const Home = ({fullpageApi}) => {
             <p>All in all it was a good year, having a curiosity for learning new things. I can't say I always had this high level of curiosity, but it's always rewarding when I'm experiencing it for longer periods of time. Having said that, let's start exploring the things that caught my attention in 2019!</p>
           </section>
 
-          <Button label='Start' onClick={onClickStart} />
+          <Button label='Start Exploring' onClick={onClickStart} />
         </div>
       </div>
     </div>

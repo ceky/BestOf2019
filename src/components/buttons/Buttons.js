@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {useSpring, animated} from 'react-spring';
 
-import './../../scss/Button.scss';
+import './../../scss/components/Button.scss';
 
 const Button = ({label, onClick}) => {
 

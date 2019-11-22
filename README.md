@@ -39,6 +39,10 @@ A tool to generate for clip-paths https://bennettfeely.com/clippy/
 
 Not a tool really, but still worth mentioning https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Shapes
 
+- Icons
+
+https://pixabay.com/vectors
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
