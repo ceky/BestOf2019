@@ -41,7 +41,9 @@ Not a tool really, but still worth mentioning https://developer.mozilla.org/en-U
 
 - Icons
 
+https://svg2jsx.com/
 https://pixabay.com/vectors
+https://www.freepik.com/
 
 ---
 

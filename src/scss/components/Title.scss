@@ -1,3 +1,15 @@
-.title {
-  text-align: center;
+.title-section {
+  font-family: "FF Enzo";
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to bottom,
+    #ec982c,
+    #e0a32a,
+    #d4ad2d,
+    #c7b736,
+    #b9bf42
+  );
+  padding: 0.5rem;
 }

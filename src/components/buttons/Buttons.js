@@ -11,7 +11,11 @@ const Button = ({label, onClick}) => {
     from: {
       transform: isMouseOver ? `scale(1)` : `scale(1.1)`
     }, 
-    transform: isMouseOver ? `scale(1.1)` : `scale(1)`
+    transform: isMouseOver ? `scale(1.1)` : `scale(1)`,
+    config: {
+      friction: 10,
+      tension: 300
+    }
   });
 
   return (

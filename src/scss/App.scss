@@ -42,7 +42,7 @@ html {
 }
 
 body {
-  font-family: "FF Enzo";
+  font-family: "Fauna One", serif;
 }
 
 .fp-tableCell {
@@ -61,7 +61,14 @@ body {
     padding: 2rem;
     border-radius: 5px;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-image: linear-gradient(
+      to right bottom,
+      #3088bc,
+      #66b0cc,
+      #8ed9dd,
+      #c7f2f5,
+      #e0fcfd
+    );
     box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
 
     .page-content {

@@ -5,7 +5,7 @@ import './../../scss/components/Title.scss';
 const Title = ({label}) => {
 
   return (
-    <h1 className="title">{label}</h1>
+    <h1 className="title-section">{label}</h1>
   )
 }
 
