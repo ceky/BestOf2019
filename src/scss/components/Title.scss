@@ -1,15 +1,28 @@
-.title-section {
-  font-family: "FF Enzo";
-  position: relative;
-  width: fit-content;
+.title-container {
   margin: 0 auto;
-  background-image: linear-gradient(
-    to bottom,
-    #ec982c,
-    #e0a32a,
-    #d4ad2d,
-    #c7b736,
-    #b9bf42
-  );
-  padding: 0.5rem;
+  width: fit-content;
+  position: relative;
+
+  .title-section {
+    font-family: "FF Enzo";
+    position: relative;
+    background-image: linear-gradient(
+      to bottom,
+      #ec982c,
+      #e0a32a,
+      #d4ad2d,
+      #c7b736,
+      #b9bf42
+    );
+    padding: 0.5rem;
+  }
+  
+  .title-bg {
+    width: 100%;
+    height: 62px;
+    background-color: #125e94;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
 }

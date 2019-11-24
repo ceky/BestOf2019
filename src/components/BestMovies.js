@@ -1,8 +1,8 @@
 import React from 'react';
 
 import MovieIcon from './icons/MovieIcon';
-import Button from './buttons/Buttons';
-import Title from './buttons/Title';
+import Button from './common/Buttons';
+import Title from './common/Title';
 
 const BestMovies = () => {
   

@@ -2,7 +2,7 @@ import React from 'react';
 
 import logo from './../assets/love.svg';
 import './../scss/Home.scss';
-import Button from './buttons/Buttons';
+import Button from './common/Buttons';
 
 const Home = ({fullpageApi}) => {
 
