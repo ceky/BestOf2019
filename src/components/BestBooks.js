@@ -19,9 +19,9 @@ const BestBooks = () => {
           <main className="page-content">
             <BookIcon width={320} height={240} />
             <div>
-              <p>Compared to other years, I've watched significantly less movies in 2019. Mainly because I've consumed a different type of video content. Youtube, stand up shows or documentaries. But I always loved movies, old ones, indepentend ones, Romanian productions every now and then. I even tried netflix this year for a few months. But being afraid of spending too much time watching tv series I canceled my subscription.</p>
-
-              <p>Even so there were some really good movies that I've stumbled upon. Two of them being animated tv series from netflix. So it might not be a final goodbye to the platform.</p>
+              <p>Probably my favorite category over here. I don't read as much as I would like to, but I've become quite good in picking books that I enjoy. That wasn't always the case. And by that I get to read every year some books that get me really attached to the stories.</p>
+              
+              <p>This year I've read two stories, each over 1000 pages. And for the months that I've been reading them I felt as being part of another universe. A new dimension in parallel with the reality. So it's like an add-on, improving the life's experience.</p>
             </div>
             
           </main>     
