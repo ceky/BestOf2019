@@ -1,3 +1,50 @@
+// Icons from the cards container
+.svg-container {
+	position: relative;
+	width: 200%;
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  
+  .svg-content {
+    display: inline-block;
+    width: 100px;
+  }
+}
+
+@media (min-width: 30rem) {
+  .svg-container {
+    .svg-content {
+      width: 120px;
+    }
+  }
+}
+
+@media (min-width: 50rem) {
+  .svg-container {
+    .svg-content {
+      width: 150px;
+    }
+  }
+}
+
+@media (min-width: 70rem) {
+  .svg-container {
+    .svg-content {
+      width: 200px;
+    }
+  }
+}
+
+@media (min-width: 90rem) {
+  .svg-container {
+    .svg-content {
+      width: 250px;
+    }
+  }
+}
+
+// Icons from the menu
 .icon {
   background-size: contain;
   display: inline-block;
