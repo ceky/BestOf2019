@@ -3,7 +3,7 @@ import React from "react";
 function MovieIcon({width, height}) {
   return (
     <div className="svg-container">
-      <svg xmlns="http://www.w3.org/2000/svg" className="svg-content" preserveAspectRatio="xMinYMin meet" viewBox="0 0 640 480">
+      <svg xmlns="http://www.w3.org/2000/svg" className="svg-content" preserveAspectRatio="xMinYMin meet" viewBox="0 0 480 480">
         <defs>
           <filter id="a">
             <feGaussianBlur stdDeviation="2.297"></feGaussianBlur>

@@ -1,17 +1,30 @@
 // Icons from the cards container
 .svg-container {
-	position: relative;
-	width: 200%;
-  overflow: hidden; 
   display: flex;
   align-items: center;
+  justify-content: center;
   
   .svg-content {
-    display: inline-block;
-    width: 100px;
+    margin: 0 3rem;    
+    width: 100%;
   }
 }
 
+@media (max-width: 50rem) {
+  .svg-container {
+    display: none;
+  }
+
+  .center {
+    .page-container {
+      .page-content { 
+        display: block !important;
+      }
+    }
+  }
+}
+
+/*
 @media (min-width: 30rem) {
   .svg-container {
     .svg-content {
@@ -42,7 +55,7 @@
       width: 250px;
     }
   }
-}
+}*/
 
 // Icons from the menu
 .icon {
