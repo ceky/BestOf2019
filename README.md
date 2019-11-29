@@ -4,7 +4,7 @@ A project to highlight the best things that I experienced during 2019.
 
 ## Deploy to surge.sh
 
-Write `surge` and add the project path to /public
+Write `surge` and add the project path to /build
 
 http://ceky-2019.surge.sh
 
