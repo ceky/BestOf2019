@@ -22,7 +22,7 @@ const BestDocumentaries = () => {
 
               <p>Even so there were some really good movies that I've stumbled upon. Two of them being animated tv series from netflix. So it might not be a final goodbye to the platform.</p>
             </div>
-            <DocumentaryIcon width={320} height={240} />
+            <DocumentaryIcon />
             
           </main>     
 

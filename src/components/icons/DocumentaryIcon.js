@@ -1,9 +1,9 @@
 import React from "react";
 
-function DocumentaryIcon({width, height}) {
+function DocumentaryIcon() {
   return (
-    <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="-27.362 0 1889.362 1335">
+    <div className="svg-container">
+      <svg xmlns="http://www.w3.org/2000/svg" className="svg-content-no-margin" viewBox="-27.362 0 1889.362 1335">
         <g strokeWidth="0.494">
           <path
             fill="#413837"

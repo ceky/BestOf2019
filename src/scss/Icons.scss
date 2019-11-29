@@ -8,6 +8,10 @@
     margin: 0 3rem;    
     width: 100%;
   }
+
+  .svg-content-no-margin {
+    width: 100%;
+  }
 }
 
 @media (max-width: 50rem) {
@@ -23,39 +27,6 @@
     }
   }
 }
-
-/*
-@media (min-width: 30rem) {
-  .svg-container {
-    .svg-content {
-      width: 120px;
-    }
-  }
-}
-
-@media (min-width: 50rem) {
-  .svg-container {
-    .svg-content {
-      width: 150px;
-    }
-  }
-}
-
-@media (min-width: 70rem) {
-  .svg-container {
-    .svg-content {
-      width: 200px;
-    }
-  }
-}
-
-@media (min-width: 90rem) {
-  .svg-container {
-    .svg-content {
-      width: 250px;
-    }
-  }
-}*/
 
 // Icons from the menu
 .icon {

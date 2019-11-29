@@ -1,9 +1,9 @@
 import React from "react";
 
-function BookIcon({width, height}) {
+function BookIcon() {
   return (
-    <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="300 200 192.7 722.5">
+    <div className="svg-container">
+      <svg xmlns="http://www.w3.org/2000/svg" className="svg-content" viewBox="150 250 506.7 581.5">
         <defs>
         <linearGradient
           id="v"

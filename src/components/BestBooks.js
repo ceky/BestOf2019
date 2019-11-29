@@ -17,7 +17,7 @@ const BestBooks = () => {
           <Title label="Best Books"></Title>
 
           <main className="page-content">
-            <BookIcon width={320} height={240} />
+            <BookIcon />
             <div>
               <p>Probably my favorite category over here. I don't read as much as I would like to, but I've become quite good in picking books that I enjoy. That wasn't always the case. And by that I get to read every year some books that get me really attached to the stories.</p>
               
