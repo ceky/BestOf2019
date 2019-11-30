@@ -5,6 +5,7 @@
 
   .title-section {
     font-family: "FF Enzo";
+    font-size: 1.8rem;
     position: relative;
     background-image: linear-gradient(
       to bottom,
@@ -30,7 +31,7 @@
 @media (min-width: 30rem) {
   .title-container {
     .title-bg {
-      height: 52px;
+      height: 48px;
     }
   }
 }
@@ -38,7 +39,7 @@
 @media (min-width: 50rem) {
   .title-container {
     .title-bg {
-      height: 56px;
+      height: 51px;
     }
   }
 }
@@ -46,7 +47,7 @@
 @media (min-width: 70rem) {
   .title-container {
     .title-bg {
-      height: 59px;
+      height: 54px;
     }
   }
 }
@@ -54,7 +55,7 @@
 @media (min-width: 90rem) {
   .title-container {
     .title-bg {
-      height: 62px;
+      height: 58px;
     }
   }
 }
