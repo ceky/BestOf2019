@@ -2,7 +2,7 @@ import React from 'react';
 
 import Button from './common/Buttons';
 import Title from './common/Title';
-import MusicIcon from './icons/MusicIcon';
+import TechnicalIcon from './icons/TechnicalIcon';
 
 const BestTechnical = () => {
   
@@ -19,12 +19,12 @@ const BestTechnical = () => {
           <main className="page-content right-photo">
             
             <div>
-              <p>I just love listening to music. It's like therapy to me, it always helped me in difficult times. And this year I've discovered so many good songs and bands. I've also discovered some good concerts from NPR Music Tiny Desk. My favorite being by far the one from Mac Miller. Compared to past years I would say I've listened to less Romanian music however.</p>
+              <p>It was a really good year 2019 due to the passion that I managed to maintain on a high level regarding the web development world. It's so big and hot all this ecosystem. The possibilities to choose and learn any new skill are endless with so many good features and libraries. Just thinking on how the Flexbox and CSS Grid changed the layout games, or how many crazy things have appeared with crazy animations done with CSS, Javascript and SVG.</p>
 
-              <p>Listening to so many good songs I just couldn't limit my selections to only 5 picks as I did last year.</p>
+              <p>Also the browsers are better in implementing and supporting any new features. And all I can say is that it's a joy to be a frontend developer these days.</p>
             </div>
 
-            <MusicIcon />
+            <TechnicalIcon />
             
           </main>     
 
