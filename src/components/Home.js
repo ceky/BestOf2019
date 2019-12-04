@@ -1,8 +1,10 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
+import './../scss/components/Button.scss';
 
 import logo from './../assets/love.svg';
 import './../scss/Home.scss';
-import Button from './common/Buttons';
 
 const Home = ({fullpageApi}) => {
 
@@ -25,7 +27,9 @@ const Home = ({fullpageApi}) => {
             <p>All in all it was a good year, having a curiosity for learning new things. I can't say I always had this high level of curiosity, but it's always rewarding when I'm experiencing it for longer periods of time. Having said that, let's start exploring the things that caught my attention in 2019!</p>
           </section>
 
-          <Button label='Start Exploring' onClick={onClickStart} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickStart();
+          }}>Star Exploring</AwesomeButton>
         </div>
       </div>
     </div>

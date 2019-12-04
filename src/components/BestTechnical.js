@@ -1,6 +1,7 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
-import Button from './common/Buttons';
 import Title from './common/Title';
 import TechnicalIcon from './icons/TechnicalIcon';
 
@@ -28,7 +29,9 @@ const BestTechnical = () => {
             
           </main>     
 
-          <Button label='See Technical' onClick={onClickSeeTechnical} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickSeeTechnical();
+          }}>See Technical</AwesomeButton>
         </div>
       </div>
     </div>

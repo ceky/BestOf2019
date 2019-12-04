@@ -1,6 +1,7 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
-import Button from './common/Buttons';
 import Title from './common/Title';
 import BookIcon from './icons/BookIcon';
 
@@ -26,7 +27,9 @@ const BestBooks = () => {
             
           </main>     
 
-          <Button label='See Books' onClick={onClickSeeBooks} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickSeeBooks();
+          }}>See Books</AwesomeButton>
         </div>
       </div>
     </div>

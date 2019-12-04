@@ -1,7 +1,8 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 import MovieIcon from './icons/MovieIcon';
-import Button from './common/Buttons';
 import Title from './common/Title';
 
 const BestMovies = () => {
@@ -26,7 +27,9 @@ const BestMovies = () => {
             
           </main>     
 
-          <Button label='See Movies' onClick={onClickSeeMovies} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickSeeMovies();
+          }}>See Movies</AwesomeButton>
         </div>
       </div>
     </div>

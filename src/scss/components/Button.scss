@@ -11,3 +11,33 @@
   border-radius: 4px;
   box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4);
 }
+
+.aws-btn {
+  --button-default-height: 48px;
+  --button-default-font-size: 16px;
+  --button-default-border-radius: 15px;
+  --button-horizontal-padding: 19px;
+  --button-raise-level: 3px;
+  --button-hover-pressure: 2;
+  --transform-speed: 0.185s;
+  --button-primary-color: #1e7d74;
+  --button-primary-color-dark: #1a3c25;
+  --button-primary-color-light: #ffffff;
+  --button-primary-color-hover: #126961;
+  --button-primary-border: none;
+  --button-secondary-color: #fffc6c;
+  --button-secondary-color-dark: #b9b500;
+  --button-secondary-color-light: #6c6a00;
+  --button-secondary-color-hover: #fffb3e;
+  --button-secondary-border: none;
+  --button-anchor-color: #f3c8ad;
+  --button-anchor-color-dark: #734922;
+  --button-anchor-color-light: #4c3016;
+  --button-anchor-color-hover: #f1bfa0;
+  --button-anchor-border: 1px solid #8c633c;
+
+  font-size: 1.4rem;
+  margin: 0 auto;
+  font-family: "FF Enzo";
+  display: block;
+}

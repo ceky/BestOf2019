@@ -1,6 +1,7 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
-import Button from './common/Buttons';
 import Title from './common/Title';
 import YoutubeIcon from './icons/YoutubeIcon';
 
@@ -29,7 +30,9 @@ const BestYoutube = () => {
             
           </main>     
 
-          <Button label='See Youtube' onClick={onClickSeeYoutube} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickSeeYoutube();
+          }}>See Youtube</AwesomeButton>
         </div>
       </div>
     </div>

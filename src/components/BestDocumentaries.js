@@ -1,7 +1,8 @@
 import React from 'react';
+import { AwesomeButton } from "react-awesome-button";
+import "react-awesome-button/dist/styles.css";
 
 import DocumentaryIcon from './icons/DocumentaryIcon';
-import Button from './common/Buttons';
 import Title from './common/Title';
 
 const BestDocumentaries = () => {
@@ -26,7 +27,9 @@ const BestDocumentaries = () => {
             
           </main>     
 
-          <Button label='See Documentaries' onClick={onClickSeeDocumentaries} />
+          <AwesomeButton type="primary" onPress={() => {
+            onClickSeeDocumentaries();
+          }}>See Documentaries</AwesomeButton>
         </div>
       </div>
     </div>
