@@ -1,14 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 
 import MovieIcon from './icons/MovieIcon';
 import Title from './common/Title';
+import TransitionScreen from './TransitionScreen';
 
 const BestMovies = () => {
   
+  const [seeDetails, setSeeDetails] = useState(false);
+
   const onClickSeeMovies = () => {
-    console.log('new test');
+    setSeeDetails(true);
   }
 
   return (
@@ -30,6 +33,10 @@ const BestMovies = () => {
           <AwesomeButton type="primary" onPress={() => {
             onClickSeeMovies();
           }}>See Movies</AwesomeButton>
+
+          { seeDetails &&
+            <TransitionScreen category='movies'/>
+          }
         </div>
       </div>
     </div>
