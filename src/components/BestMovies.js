@@ -8,10 +8,14 @@ import TransitionScreen from './TransitionScreen';
 
 const BestMovies = () => {
   
-  const [seeDetails, setSeeDetails] = useState(false);
+  const [isDetailsOpen, setiIsDetailsOpen] = useState(false);
 
   const onClickSeeMovies = () => {
-    setSeeDetails(true);
+    setiIsDetailsOpen(true);
+  }
+
+  const onCloseMovieDetails = () => {
+    setiIsDetailsOpen(false);
   }
 
   return (
@@ -34,9 +38,7 @@ const BestMovies = () => {
             onClickSeeMovies();
           }}>See Movies</AwesomeButton>
 
-          { seeDetails &&
-            <TransitionScreen category='movies'/>
-          }
+          <TransitionScreen category='movies' isOpen={isDetailsOpen} onClose={() => onCloseMovieDetails()}/>
         </div>
       </div>
     </div>
