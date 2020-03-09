@@ -16,14 +16,25 @@ import './scss/BurgerMenu.scss';
 const App = () => {
 
   const [activeIndex, setActiveIndex] = useState(-1);
+  const [isMenuVisible, setIsMenuVisible] = useState(true);
 
   const afterLoad = (origin, destination, direction) => { 
     setActiveIndex(destination.index + 1);
   }
 
+  const showMenu = () => {
+    setIsMenuVisible(false);
+  }
+
+  const hideMenu = () => {
+    setIsMenuVisible(true);
+  }
+
   return (
     <div>
-      <BurgerMenu activeIndex={activeIndex}/>
+      {isMenuVisible &&
+        <BurgerMenu activeIndex={activeIndex}/>
+      }
       <ReactFullpage
         licenseKey = '^9hrscI$n7'
         scrollingSpeed = {1000}
@@ -35,7 +46,7 @@ const App = () => {
             <div>
               <ReactFullpage.Wrapper>
                 <Home fullpageApi={fullpageApi}/>
-                <BestMovies />
+                <BestMovies onOpenDetails={() => showMenu()} onCloseDetails={() => hideMenu()} />
                 <BestDocumentaries />
                 <BestBooks />
                 <BestSongs />

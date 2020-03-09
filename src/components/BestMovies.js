@@ -6,16 +6,20 @@ import MovieIcon from './icons/MovieIcon';
 import Title from './common/Title';
 import TransitionScreen from './TransitionScreen';
 
-const BestMovies = () => {
+const BestMovies = ({onOpenDetails, onCloseDetails}) => {
   
-  const [isDetailsOpen, setiIsDetailsOpen] = useState(false);
+  const [isDetailsOpen, setIsDetailsOpen] = useState(false);
 
   const onClickSeeMovies = () => {
-    setiIsDetailsOpen(true);
+    setIsDetailsOpen(true);
+    // show the menu
+    onOpenDetails();
   }
 
   const onCloseMovieDetails = () => {
-    setiIsDetailsOpen(false);
+    setIsDetailsOpen(false);
+    // hide the menu
+    onCloseDetails();
   }
 
   return (

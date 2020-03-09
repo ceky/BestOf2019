@@ -5,8 +5,8 @@ import './../scss/TransitionScreen.scss';
 
 const TransitionScreen = ({category, isOpen, onClose}) => {
 
-  const { x } = useSpring({
-    x: isOpen ? 0 : 100
+  const { y } = useSpring({
+    y: isOpen ? 0 : 100
   });
 
   const onClickClose = () => {
@@ -16,10 +16,10 @@ const TransitionScreen = ({category, isOpen, onClose}) => {
   return (
     <animated.div 
       style={{
-        transform: x.interpolate(x => `translate3d(${x}%, 0, 0)`)
+        transform: y.interpolate(y => `translate3d(0, ${y}%, 0)`)
       }}
       className="transition-screen">
-      <span onClick={() => onClickClose()}>Transition Screen {category}</span>
+      <p className="transition-title" onClick={() => onClickClose()}>Best {category}</p>
     </animated.div>
   );
 }
