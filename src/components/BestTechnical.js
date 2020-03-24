@@ -20,9 +20,9 @@ const BestTechnical = () => {
           <main className="page-content right-photo">
             
             <div>
-              <p>It was a really good year 2019 due to the passion that I managed to maintain on a high level regarding the web development world. It's so big and hot all this ecosystem. The possibilities to choose and learn any new skill are endless with so many good features and libraries. Just thinking on how the Flexbox and CSS Grid changed the layout games, or how many crazy things have appeared with crazy animations done with CSS, Javascript and SVG.</p>
+              <p>It was a really good year 2019 due to the passion that I managed to maintain on a high level regarding the web development world. All this web development ecosystem is so big and hot. The possibilities to choose and learn any new skill are endless with so many good features and libraries. Just thinking on how the Flexbox and CSS Grid changed the layout games.</p>
 
-              <p>Also the browsers are better in implementing and supporting any new features. And all I can say is that it's a joy to be a frontend developer these days.</p>
+              <p>Also the browsers are better in implementing and supporting new features. And all I can say is that it's a joy to be a frontend developer these days.</p>
             </div>
 
             <TechnicalIcon />

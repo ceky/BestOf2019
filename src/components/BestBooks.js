@@ -20,9 +20,9 @@ const BestBooks = () => {
           <main className="page-content">
             <BookIcon />
             <div>
-              <p>Probably my favorite category over here. I don't read as much as I would like to, but I've become quite good in picking books that I enjoy. That wasn't always the case. And by that I get to read every year some books that get me really attached to the stories.</p>
+              <p>Probably my favorite category over here. I don't read as much as I would like to, but I've become quite good in picking books that I enjoy. That wasn't always the case, but hey that's where experience comes into place :D</p>
               
-              <p>This year I've read two stories, each over 1000 pages. And for the months that I've been reading them I felt as being part of another universe. A new dimension in parallel with the reality. So it's like an add-on, improving the life's experience.</p>
+              <p>I like to combine fiction and nonficiton books. My favorite fiction book was The Count of Monte Cristo. It has more than 1000 pages and I've started it because Cartarescu recommended it as one of his favorites. As for my my favorite nonfiction that has to be Flow. And I've started it again on another recommendation by Kathy Sierra that wrote Head First Java. I don't reread books because life it's too short. But one day I might do an exception for this book.</p>
             </div>
             
           </main>     

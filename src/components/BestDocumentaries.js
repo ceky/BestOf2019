@@ -19,9 +19,7 @@ const BestDocumentaries = () => {
 
           <main className="page-content right-photo">
             <div>
-              <p>Compared to other years, I've watched significantly less movies in 2019. Mainly because I've consumed a different type of video content. Youtube, stand up shows or documentaries. But I always loved movies, old ones, indepentend ones, Romanian productions every now and then. I even tried netflix this year for a few months. But being afraid of spending too much time watching tv series I canceled my subscription.</p>
-
-              <p>Even so there were some really good movies that I've stumbled upon. Two of them being animated tv series from netflix. So it might not be a final goodbye to the platform.</p>
+              <p>At the beginning of the year I decided to watch 100 documentaries in 2019. For the first three months I've seen more than 10 in each month, being on schedule. But as it usually happens, the enthuziasm starts to fade from the moment you plan something as the time goes on. So by April I've decided to stop it, cause I didn't want to feel this as a burden. I've continued watching some documentaries for the rest of the year, but without any extra pressure.</p>
             </div>
             <DocumentaryIcon />
             
