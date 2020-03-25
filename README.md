@@ -49,6 +49,10 @@ https://www.freepik.com/
 
 https://github.com/rcaferati/react-awesome-button
 
+- Typewriter effect
+
+https://github.com/tameemsafi/typewriterjs
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -25,3 +25,19 @@ const TransitionScreen = ({category, isOpen, onClose}) => {
 }
 
 export default TransitionScreen;
+
+/**
+ * import React, {useEffect} from 'react';
+import Typewriter from 'typewriter-effect/dist/core';
+
+useEffect(() => {
+  var typewriter = new Typewriter('.title-section', {
+    loop: false,
+    delay: 75
+  });
+
+  typewriter
+    .typeString(label)
+    .start();
+});
+ */
