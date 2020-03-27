@@ -5,10 +5,10 @@ import "react-awesome-button/dist/styles.css";
 import Title from './common/Title';
 import BookIcon from './icons/BookIcon';
 
-const BestBooks = () => {
+const BestBooks = ({openDetailsView}) => {
 
   const onClickSeeBooks = () => {
-    console.log('new test3');
+    openDetailsView();
   }
 
   return (
@@ -30,14 +30,6 @@ const BestBooks = () => {
           <AwesomeButton type="primary" onPress={() => {
             onClickSeeBooks();
           }}>See Books</AwesomeButton>
-
-          <ul style={{display: 'none'}}>
-            <li>1. The Count of Monte Cristo</li>
-            <li>2. Flow: The Psychology of Optimal Experience</li>
-            <li>3. Lost Connections: Uncovering the Real Causes of Depression - and the Unexpected Solutions</li>
-            <li>4. Prietena mea geniala</li>
-            <li>5. The Spinoza Problem</li>
-          </ul>
         </div>
       </div>
     </div>

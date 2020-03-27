@@ -5,10 +5,10 @@ import "react-awesome-button/dist/styles.css";
 import Title from './common/Title';
 import MusicIcon from './icons/MusicIcon';
 
-const BestSongs = () => {
+const BestSongs = ({openDetailsView}) => {
 
   const onClickSeeSongs = () => {
-    console.log('new test');
+    openDetailsView();
   }
   
   return (
@@ -32,19 +32,6 @@ const BestSongs = () => {
           <AwesomeButton type="primary" onPress={() => {
             onClickSeeSongs();
           }}>See Songs</AwesomeButton>
-
-          <ul style={{display: 'none'}}>
-            <li>1. Sasha Sloan - Older</li>
-            <li>2. Rilès - REMEDY</li>
-            <li>3. Mac Miller - What's The Use? (NPR concert)</li>
-            <li>4. Mike Posner - Move on</li>
-            <li>5. Anderson .Paak - Make It Better</li>
-            <li>6. Bastille - Doom Days</li>
-            <li>7. The Sound - I Can't Escape Myself</li>
-            <li>8. Let's Eat Grandma - It’s Not Just Me</li>
-            <li>9. Old Man Saxon - The Perils</li>
-            <li>10. Part III: Fever Ray - To The Moon And Back</li>
-          </ul>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import {useSpring, animated} from 'react-spring';
 
 import './../scss/TransitionScreen.scss';
+import bestThings from './../common/BestThingsList';
 
 const TransitionScreen = ({category, isOpen, onClose}) => {
 
@@ -20,6 +21,13 @@ const TransitionScreen = ({category, isOpen, onClose}) => {
       }}
       className="transition-screen">
       <p className="transition-title" onClick={() => onClickClose()}>Best {category}</p>
+
+      { bestThings[category].map((item, key) =>
+        (<li key={key}>
+          <p>{item.title}</p>
+          <p>{item.description}</p>
+        </li>)
+      )}
     </animated.div>
   );
 }

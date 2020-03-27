@@ -5,10 +5,10 @@ import "react-awesome-button/dist/styles.css";
 import Title from './common/Title';
 import YoutubeIcon from './icons/YoutubeIcon';
 
-const BestYoutube = () => {
+const BestYoutube = ({openDetailsView}) => {
   
   const onClickSeeYoutube = () => {
-    console.log('new test');
+    openDetailsView();
   }
 
   return (
@@ -33,19 +33,6 @@ const BestYoutube = () => {
           <AwesomeButton type="primary" onPress={() => {
             onClickSeeYoutube();
           }}>See Youtube</AwesomeButton>
-
-          <ul style={{display: 'none'}}>
-            <li>Patrice O'Neal Elephant In The Room Standup</li>
-            <li>Guild Talks - Echilibru între carieră de top si viaţă personală - Mircea Miclea </li>
-            <li>Izolaţi în România: Cătunele Dobraia, Ineleţ şi Prisecina, din judeţul Caraş-Severin</li>
-            <li>Lauren Hom Fall 2018 | CoAD Lecture Series</li>
-            <li>Alternativa Fundamentală | Solomon Marcus | TEDxCluj</li>
-            <li>Art + Life Rules from a Nun</li>
-            <li>A Brief History of Graphics</li>
-            <li>For People Who Feel Behind In Life</li>
-            <li>Curiozitatea, povestea şi ecuaţiile | Cristian Presura | TEDxCaleaDomneasca</li>
-            <li>A young woman finds a one-night stand. But he lives 2 hours away via public transit</li>
-          </ul>
         </div>
       </div>
     </div>

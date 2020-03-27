@@ -1,25 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 
 import MovieIcon from './icons/MovieIcon';
 import Title from './common/Title';
-import TransitionScreen from './TransitionScreen';
 
-const BestMovies = ({onOpenDetails, onCloseDetails}) => {
+const BestMovies = ({openDetailsView}) => {
   
-  const [isDetailsOpen, setIsDetailsOpen] = useState(false);
-
   const onClickSeeMovies = () => {
-    setIsDetailsOpen(true);
-    // show the menu
-    onOpenDetails();
-  }
-
-  const onCloseMovieDetails = () => {
-    setIsDetailsOpen(false);
-    // hide the menu
-    onCloseDetails();
+    openDetailsView();
   }
 
   return (
@@ -42,20 +31,6 @@ const BestMovies = ({onOpenDetails, onCloseDetails}) => {
             onClickSeeMovies();
           }}>See Movies</AwesomeButton>
 
-          <ul style={{display: 'none'}}>
-            <li>1. Green Book</li>
-            <li>2. Capernaum</li>
-            <li>3. Parasite</li>
-            <li>4. Marriage Story</li>
-            <li>5. Love, Death & Robots</li>
-            <li>6. Pain and Glory</li>
-            <li>7. Three Colors: Red</li>
-            <li>8. Final Space</li>
-            <li>9. Frances Ha</li>
-            <li>10. Dear Zachary: A Letter to a Son About His Father</li>
-          </ul>
-
-          <TransitionScreen category='movies' isOpen={isDetailsOpen} onClose={() => onCloseMovieDetails()}/>
         </div>
       </div>
     </div>
