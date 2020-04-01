@@ -25,15 +25,12 @@ https://www.gradientmagic.com/
 - Noun Project
 
 A collection of svg icons https://thenounproject.com/
+Close button by Viktor Vorobyev from the Noun Project
 
 - Fonts
 
 https://www.onlinewebfonts.com/download/af09406ada46b2e73880f928807d3723
 https://fonts.google.com/specimen/Fauna+One?selection.family=Fauna+One
-
-- Clippy
-
-A tool to generate for clip-paths https://bennettfeely.com/clippy/
 
 - CSS Shapes
 
