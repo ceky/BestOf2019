@@ -1,11 +1,22 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {useSpring, animated} from 'react-spring';
 
 import './../scss/TransitionScreen.scss';
 import closeBtn from '../assets/close.svg';
 import bestThings from './../common/BestThingsList';
 
-const TransitionScreen = ({category, isOpen, onClose}) => {
+const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
+
+  useEffect(() => {
+    if (isOpen) {
+      setTimeout(() => {
+        document.getElementById('fullpage').style.visibility = 'hidden';
+        document.getElementsByTagName('html')[0].style.overflow = 'auto';
+        document.getElementsByTagName('body')[0].style.overflow = 'auto';
+        document.getElementsByTagName('html')[0].scrollTop = 0;
+      }, 700);
+    }
+  }, [isOpen]);
 
   const { y } = useSpring({
     y: isOpen ? 0 : 100
@@ -13,6 +24,14 @@ const TransitionScreen = ({category, isOpen, onClose}) => {
 
   const onClickClose = () => {
     onClose();
+
+    document.getElementById('fullpage').style.visibility = 'visible';
+    document.getElementsByTagName('html')[0].style.overflow = 'hidden';
+    document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+    document.getElementsByTagName('html')[0].scrollTop = 0;
+    setTimeout(() => {
+      window.fullpageApi.moveTo(activeIndex);
+    }, 50);
   }
 
   return (
@@ -40,19 +59,3 @@ const TransitionScreen = ({category, isOpen, onClose}) => {
 }
 
 export default TransitionScreen;
-
-/**
- * import React, {useEffect} from 'react';
-import Typewriter from 'typewriter-effect/dist/core';
-
-useEffect(() => {
-  var typewriter = new Typewriter('.title-section', {
-    loop: false,
-    delay: 75
-  });
-
-  typewriter
-    .typeString(label)
-    .start();
-});
- */

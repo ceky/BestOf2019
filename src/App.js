@@ -72,7 +72,7 @@ const App = () => {
         }}
       />
 
-      <TransitionScreen category={selectedCategory} isOpen={isDetailsOpen} onClose={() => closeDetailsView()}/>
+      <TransitionScreen category={selectedCategory} isOpen={isDetailsOpen} activeIndex={activeIndex} onClose={() => closeDetailsView()}/>
     </div>      
   );
 }
