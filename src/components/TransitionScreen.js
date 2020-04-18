@@ -46,8 +46,10 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
       <p className="transition-title">Best {category}</p>
 
       <ul className="list">
+
         { bestThings[category].map((item, key) =>
           (<li key={key} className="list-item">
+            <img src={item.thumbnail} alt="thumb"></img>
             <p>{item.title}</p>
             <p>{item.description}</p>
           </li>)
