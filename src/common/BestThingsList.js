@@ -2,70 +2,70 @@ const bestThings = {
   movies: [
     {
       title: 'Frances Ha',
-      description: '1010101010',
+      description: 'The representaion of a lost young woman who is trying to know herself and find a place in the world is so touching. Charming, witty and uplifting.',
       year: '2012',
       link: 'https://www.imdb.com/title/tt2347569',
       thumbnail: require('../assets/thumbnails/movies/francesha.jpg')
     },
     {
       title: 'Final Space',
-      description: '999999999',
+      description: 'Second animation in this list. The show has a particular brand of comedy and satire. Absolutely nailed it.',
       year: '(2018 - )',
       link: 'https://www.imdb.com/title/tt6317068',
       thumbnail: require('../assets/thumbnails/movies/finalspace.jpg')
     },
     {
       title: 'Three Colors: Red',
-      description: '88888888',
+      description: 'Part of a trilogy, this movie appeared in 1994. Not that old considering my tastes. The plot is quite peculiar, but I loved the atmosphere of the movie.',
       year: '1994',
       link: 'https://www.imdb.com/title/tt0111495',
       thumbnail: require('../assets/thumbnails/movies/threecolors.jpg')
     },
     {
       title: 'Pain and Glory',
-      description: '7777777',
+      description: 'Almodovar strikes again. The visual cinematography make his films such a pleasure to watch. An ode to the power of art.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt8291806',
       thumbnail: require('../assets/thumbnails/movies/dolorygloria.jpg')
     },
     {
       title: 'Love, Death & Robots',
-      description: '666666',
+      description: 'I don\'t like to start any new tv series because I know I can get easily addicted to them. But do I make excepetions for animations. And I\'m glad I did with this one. Especially cause every episode is a new story. So original. Hope there\'ll be a season two.',
       year: '(2019 - )',
       link: 'https://www.imdb.com/title/tt9561862',
       thumbnail: require('../assets/thumbnails/movies/lovedeathrobots.jpg')
     },
     {
       title: 'Marriage Story',
-      description: '55555',
+      description: 'It\'s all about the drama. The portrait of a perfect marriage that shows how everything can change in a relatioship in time. Don\'t know why I love the sad stories so much.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt7653254',
       thumbnail: require('../assets/thumbnails/movies/marriagestory.jpg')
     },
     {
       title: 'Knives Out',
-      description: '4444',
+      description: 'Excellent story, witty, the perfect detective movie for me. It\'s highly entertaining, can\'t imagine anyone getting bored with this one.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt8946378',
       thumbnail: require('../assets/thumbnails/movies/knivesout.jpg')
     },
     {
       title: 'Parasite',
-      description: '333',
+      description: 'Another one that won the 2020 oscars for the best movie. First in the history that is not in English and won this award. Just perfectly executed. I\'ve seen a couple of good South Koreean movies in the past so I\'m happy for this being so acclaimed internationally.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt6751668',
       thumbnail: require('../assets/thumbnails/movies/parasite.jpg')
     },
     {
       title: 'Capernaum',
-      description: '22',
+      description: 'The only category in oscars that really interests me is the one for the best foreign language film. And this movie coming from Lebanon was nominated for that category. I love dramas and slow paced movies and this one is just another reason why.',
       year: '2018',
       link: 'https://www.imdb.com/title/tt8267604',
       thumbnail: require('../assets/thumbnails/movies/capernaum.jpg')
     },
     {
       title: 'Green Book',
-      description: '1',
+      description: 'Won three oscars in 2019, one of them for the best movie of the year. So there\'s not much to add. Totally deserved it.',
       year: '2018',
       link: 'https://www.imdb.com/title/tt6966692',
       thumbnail: require('../assets/thumbnails/movies/greenbook.jpg')
@@ -183,63 +183,63 @@ const bestThings = {
   songs: [
     {
       title: 'Fever Ray - To The Moon And Back',
-      description: '',
+      description: 'I\'ve listened to a lot of songs from this Swedish singer. Good lyrics, crazy videos. Mental some of them. Her song Keep The Streets Empty For Me must be the perfect for a late night driving.',
       link: 'https://www.youtube.com/watch?v=fJjGZkPl9Tw',
       thumbnail: require('../assets/thumbnails/songs/feverray.jpg')
     },
     {
       title: 'Old Man Saxon - The Perils',
-      description: '',
+      description: 'Rap done properly. He deserves more attention. And from what I\'ve read this song actually was written while he was homeless living in a car. So fuck your excuses.',
       link: 'https://www.youtube.com/watch?v=m8-tsi9AfoA',
       thumbnail: require('../assets/thumbnails/songs/oldmansaxon.jpg')
     },
     {
       title: "Let's Eat Grandma - It’s Not Just Me",
-      description: '',
+      description: 'There\'s always room for a cool pop song made by some teenagers in my playlist. I\'ve seen a live performance of these two British girls on youtube and the vibe they transmit is just amazing.',
       link: 'https://www.youtube.com/watch?v=P8FoJjlxlmY',
       thumbnail: require('../assets/thumbnails/songs/letseatgrandma.jpg')
     },
     {
       title: 'Bastille - Doom Days',
-      description: '',
+      description: 'Can\'t say I\'m into any other Bastille song. But damn this one is so good and powerful. Got me obsessed this past summer.',
       link: 'https://www.youtube.com/watch?v=IOX30CHr4JY',
       thumbnail: require('../assets/thumbnails/songs/bastille.jpg')
     },
     {
       title: 'Anderson .Paak - Make It Better',
-      description: '',
+      description: 'You know when you\'re in a relationship, but after a while the fire and passion are starting to fade away? Well this songs describes that feeling when both have to decide to fight for it if they don\'t want to loose it.',
       link: 'https://www.youtube.com/watch?v=7Jj83FOlBF8',
       thumbnail: require('../assets/thumbnails/songs/andresonpaak.jpg')
     },
     {
       title: 'Mike Posner - Move on',
-      description: '',
+      description: 'And the award for the most positive and uplifting song of the year goes to Move on. It appeared in my life at a point I really need it. So no wonder it sticked with me for awhile.',
       link: 'https://www.youtube.com/watch?v=A2CwZ1UTSSA',
       thumbnail: require('../assets/thumbnails/songs/mikeposner.jpg')
     },
     {
       title: "The Sound - I Can't Escape Myself",
-      description: '',
+      description: 'Can\'t say I\'ve experienced depression on the level this song is reaching and I hope I never will. But I do love to read a lot about it and listen to depressive song. This is without a doubt my all time favorite. On a side note the lead singer commited suicide years after releasing this.',
       link: 'https://www.youtube.com/watch?v=8Ad2ujW5Sl8',
       thumbnail: require('../assets/thumbnails/songs/thesound.jpg')
     },
     {
       title: "Mac Miller: NPR Music Tiny Desk Concert",
-      description: '',
+      description: 'This is a 17 minutes concert because it sounds so good and I couldn\'t pick only one song from Mac. Such a pitty he\'s no longer with us. Anyway, I just love him and every now and then I return to his songs. Which doesn\'t happen frequently with my music obsessions.',
       link: 'https://www.youtube.com/watch?v=QrR_gm6RqCo',
       thumbnail: require('../assets/thumbnails/songs/macmiller.png')
     },
     {
-      title: 'Rilès - REMEDY',
-      description: '',
-      link: 'https://www.youtube.com/watch?v=ex0Hli7kMRs',
-      thumbnail: require('../assets/thumbnails/songs/riles.jpg')
-    },
-    {
       title: 'Sasha Sloan - Older',
-      description: '',
+      description: 'A lovely singer that I\'ve discovered in the past year. The lyrics resonate with me, so I look forward to every new song she\'s releasing. I just love her authentic style of speaking about common mental issues. This song like many others of her\'s is a bit slow and melancholic. But amazing nonetheless.',
       link: 'https://www.youtube.com/watch?v=r1Fx0tqK5Z4',
       thumbnail: require('../assets/thumbnails/songs/sashasloan.jpg')
+    },
+    {
+      title: 'Rilès - Remedy',
+      description: 'Even a year after I\'ve discovered this French-Agerian rapper he\'s still my number one choice when I want to listen to something good with positive energy. He just has so many songs I love. But this is the one that I was initially introduced to. And still one of my favs.',
+      link: 'https://www.youtube.com/watch?v=ex0Hli7kMRs',
+      thumbnail: require('../assets/thumbnails/songs/riles.jpg')
     }
   ].reverse(),
   youtube: [

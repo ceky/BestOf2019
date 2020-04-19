@@ -34,6 +34,10 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
     }, 50);
   }
 
+  const onOpenLink = (url) => {
+    window.open(url,'_blank');
+  }
+
   return (
     <animated.div 
       style={{
@@ -48,10 +52,12 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
       <ul className="list">
 
         { bestThings[category].map((item, key) =>
-          (<li key={key} className="list-item">
+          (<li key={key} className="list-item" onClick={() => onOpenLink(item.link)}>
             <img src={item.thumbnail} alt="thumb"></img>
-            <p>{item.title}</p>
-            <p>{item.description}</p>
+            <div className="text-container">
+              <p className="title">{item.title}</p>
+              <p className="description">{item.description}</p>
+            </div>            
           </li>)
         )}
       </ul>
