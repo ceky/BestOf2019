@@ -30,7 +30,7 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
     document.getElementsByTagName('body')[0].style.overflow = 'hidden';
     document.getElementsByTagName('html')[0].scrollTop = 0;
     setTimeout(() => {
-      window.fullpageApi.moveTo(activeIndex);
+      window.fullpageApi.silentMoveTo(activeIndex);
     }, 50);
   }
 

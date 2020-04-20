@@ -2,7 +2,7 @@ const bestThings = {
   movies: [
     {
       title: 'Frances Ha',
-      description: 'The representaion of a lost young woman who is trying to know herself and find a place in the world is so touching. Charming, witty and uplifting.',
+      description: 'The story of a lost young woman who is trying to know herself and find a place in the world is so touching. Charming, witty and uplifting.',
       year: '2012',
       link: 'https://www.imdb.com/title/tt2347569',
       thumbnail: require('../assets/thumbnails/movies/francesha.jpg')
@@ -245,129 +245,129 @@ const bestThings = {
   youtube: [
     {
       title: 'A young woman finds a one-night stand. But he lives 2 hours away via public transit',
-      description: '',
+      description: 'You can find some good short movies on this channel and this is one of them.',
       link: 'https://www.youtube.com/watch?v=rVBhvVK8RwM',
       thumbnail: require('../assets/thumbnails/youtube/omleto.jpg')
     },
     {
-      title: 'Curiozitatea, povestea şi ecuaţiile | Cristian Presura | TEDxCaleaDomneasca',
-      description: '',
+      title: 'Curiozitatea, povestea şi ecuaţiile | Cristian Presura',
+      description: 'I\'m sure I would have liked physics much more in school if I only had a professor like him. He has a youtube channel now and I\'m happy to see people being interested in this type of content as well, not only vlogs or content that don\'t stimulate our brains, meant only to push away the boredom. This talk however is an ode to curiosity.',
       link: 'https://www.youtube.com/watch?v=9mA8dk7_SJc',
       thumbnail: require('../assets/thumbnails/youtube/curiozitatea.jpg')
     },
     {
       title: 'For People Who Feel Behind In Life',
-      description: '',
+      description: 'This youtuber is so authentic and funny. I like a lot of her videos that are full of positivity.',
       link: 'https://www.youtube.com/watch?v=575LByUKT00',
       thumbnail: require('../assets/thumbnails/youtube/evelyn.jpg')
     },
     {
       title: 'A Brief History of Graphics',
-      description: '',
+      description: 'If you ever enjoyed video games you will like this video for sure. I remembered some games I used to play in the school that I\'ve long forgotten.',
       link: 'https://www.youtube.com/watch?v=QyjyWUrHsFc',
       thumbnail: require('../assets/thumbnails/youtube/graphics.jpg')
     },
     {
       title: 'Art + Life Rules from a Nun',
-      description: '',
+      description: 'I don\'t know much about art cause I feel it\'s hard to approach most of the times. But this channel finds a way to bring it closer to the people. In the end we are all artists as the host of the show stated in her book that was just released in 2020. Some great advice can be found in this video as well that might awake your dormant artistic part.',
       link: 'https://www.youtube.com/watch?v=IRPyql3cezo',
       thumbnail: require('../assets/thumbnails/youtube/art.jpg')
     },
     {
       title: 'Alternativa Fundamentală | Solomon Marcus | TEDxCluj',
-      description: '',
+      description: 'I\'ve first seen this university math professor that is no longer with us at a tv show with Neagu Djuvara, another personality that I looked up to. I was fascinated by his intelligence and his kind way of talking. In this TED Talk he shares 10 human needs that are fundamental for a human being. Nothing groundbreaking, but still I enjoy his wisdom.',
       link: 'https://www.youtube.com/watch?v=qZrtnwkZkwI',
       thumbnail: require('../assets/thumbnails/youtube/solomon.jpg')
     },
     {
-      title: 'Lauren Hom Fall 2018 | CoAD Lecture Series',
-      description: '',
+      title: 'Lauren Hom | CoAD Lecture Series',
+      description: 'I\'m a huge beliver in the theory that there are no stupid projects. Hence this website. Lauren is a designer that has made an impressive career exploring her creativity with projects that seemed silly initially. This talk inspires us to keep making things just because they feel good or they\'re fun.',
       link: 'https://www.youtube.com/watch?v=hB8lTBvtBAo',
       thumbnail: require('../assets/thumbnails/youtube/laurenHom.jpg')
     },
     {
-      title: 'Izolaţi în România: Cătunele Dobraia, Ineleţ şi Prisecina, din judeţul Caraş-Severin',
-      description: '',
+      title: 'Izolaţi în România',
+      description: 'If drama is my favorite genre when it comes to movies, depressive and melancholic songs are the ones I\'m most attracted to, no wonder this program touched my heart. There are more episodes that I enjoyed, all showing the hard life that isolated people from Romania are going through. Your problems suddently don\'t seem so big anymore after watching this.',
       link: 'https://www.youtube.com/watch?v=0-UrCuNXuHc',
       thumbnail: require('../assets/thumbnails/youtube/izolati.jpg')
     },
     {
       title: 'Echilibru între carieră de top si viaţă personală - Mircea Miclea',
-      description: '',
+      description: 'I\'ve seen him talking at Betfair this past year and his energy and knowledge was captivating. Since then I\'ve seen all the videos on youtube with him. All of them providing such a great value. He\'s a proffesor at a univeristy in Cluj, a psychologist and for a brief period of time was even the minister of education.',
       link: 'https://www.youtube.com/watch?v=GceJLxXA438',
       thumbnail: require('../assets/thumbnails/youtube/miclea.jpg')
     },
     {
-      title: "Patrice O'Neal Elephant In The Room Standup",
-      description: '',
+      title: "Patrice O'Neal - Elephant In The Room Standup",
+      description: 'Oh how I love this guy. To me this is the best stand up show ever. He died in 2011 and this his only complete show that I found. But he used to have a podcast as well that I highly enjoyed. He\'s savage, but I like his style.',
       link: 'https://www.youtube.com/watch?v=-dulGdlC6hs',
       thumbnail: require('../assets/thumbnails/youtube/patrice.jpg')
     }
   ].reverse(),
   technical: [
     {
-      title: "ReactCasts #9 - Immutability in JavaScript",
-      description: '',
+      title: "Immutability in JavaScript",
+      description: 'A core principle in functional programming to grasp before coding in react.',
       link: 'https://www.youtube.com/watch?v=4LzcQyZ9JOU',
       thumbnail: require('../assets/thumbnails/technical/immutability.jpg')
     },
     {
-      title: "Brad Frost | The Technical Side of Design Systems | UI Special, CSS Day 2019",
-      description: '',
+      title: "Brad Frost | The Technical Side of Design Systems",
+      description: 'Some good tips if you need to create a design system for your website.',
       link: 'https://www.youtube.com/watch?v=TgWyyoofKIA',
       thumbnail: require('../assets/thumbnails/technical/brad.jpg')
     },
     {
       title: "What Are Web Components?",
-      description: '',
+      description: 'A nice introduction to the core features of web components.',
       link: 'https://www.youtube.com/watch?v=R9o9js_HKwc',
       thumbnail: require('../assets/thumbnails/technical/components.jpg')
     },
     {
       title: "Harry Roberts - CSS for Software Engineers for CSS Developers",
-      description: '',
+      description: 'Harry is the man when it comes to writing clean and robust CSS code and this presentation provides some nice tricks to improve the quality of your code.',
       link: 'https://www.youtube.com/watch?v=_F5EISZa1oI',
       thumbnail: require('../assets/thumbnails/technical/harry.jpg')
     },
     {
       title: "Steve Schoger | Refactoring UI | CSS Day 2019",
-      description: '',
+      description: 'As a developer is pretty common to not put any effort in your designs. But here are some simple concepts that can make a huge difference for your design. His tips were very popular on twitter and he even has a book covering all these concepts.',
       link: 'https://vimeo.com/348117868',
       thumbnail: require('../assets/thumbnails/technical/uipatterns.jpg')
     },
     {
       title: "CSS Algorithms - Lara Schenck - JSConf US 2019",
-      description: '',
+      description: 'So is CSS a programming language? No matter what you think you\'re gonna love Lara\'s amazing presentation.',
       link: 'https://www.youtube.com/watch?v=panKf9hzUfQ',
       thumbnail: require('../assets/thumbnails/technical/cssalgorithms.jpg')
     },
     {
       title: "Rediscovering JavaScript by Venkat Subramaniam",
-      description: '',
+      description: 'In this 3 hours presentation this guy goes through all the main features that have changed in javascript in the past years.',
       link: 'https://www.youtube.com/watch?v=dxzBZpzzzo8',
       thumbnail: require('../assets/thumbnails/technical/javascript.jpg')
     },
     {
       title: "The Weird History of JavaScript",
-      description: '',
+      description: 'We must have a look back in the past in order to understand how we got to where we are now. This guy manages to provide an entertaining history of javascript in just 12 minutes.',
       link: 'https://www.youtube.com/watch?v=Sh6lK57Cuk4',
       thumbnail: require('../assets/thumbnails/technical/history.jpg')
     },
     {
       title: "GraphQL: The Documentary",
-      description: '',
+      description: 'The nerdiest software documentary ever. Hope to see more of these being made in the future.',
       link: 'https://www.youtube.com/watch?v=783ccP__No8',
       thumbnail: require('../assets/thumbnails/technical/graphql.jpg')
     },
     {
       title: "Chrys Coyer - Ooooops I guess we’re full-stack developers now",
-      description: '',
+      description: 'No wonder we can feel overwhelmed with the amount of information we have to keep up to in this crazy frontend development world. But I think we should appreciate the increasing number of things we can achieve with these skills.',
       link: 'https://www.youtube.com/watch?v=YiBau30kIjI',
       thumbnail: require('../assets/thumbnails/technical/coyer.jpg')
     },
     {
       title: "The road to React book",
-      description: '',
+      description: 'I used to read a lot of programming books years ago, but not anymore since there is so much amazing content when it comes to learning in a faster and more approachable way, like video courses. But learning React in 2019 this book helped me the most. And you get to build a cool little project as you advance with the reading. 10/10 would recommend this one.',
       link: 'https://www.roadtoreact.com/',
       thumbnail: require('../assets/thumbnails/technical/react.jpg')
     }

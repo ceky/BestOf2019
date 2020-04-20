@@ -24,7 +24,7 @@ const BestYoutube = ({openDetailsView}) => {
             <div>
               <p>Youtube is my number one choice when it comes to procrastination. So I see this category standing here solid for the next years as well. This year I've seen also a ton of recordings from various web conferences around the world. So hey, it's not all about procrastination.</p>
 
-              <p>Among that there've been a lot of documentaries, TED Talks and stand ups (especially Patrice O'Neal which blown me completely). In fact I could have a category just for the best TED Talks. This year I'm including only one though (about curiosity from Bucharest), cause I'm not ready to reveal all the videos that helped me heal my wounds haha.
+              <p>Among that there've been a lot of documentaries, TED Talks and stand ups (especially Patrice O'Neal which blown me completely). In fact I could have a category just for the best TED Talks. This year I'm not gonna do this tho cause I'm not ready to reveal all the videos that helped me with my mental problems :))
               </p>
             </div>
             

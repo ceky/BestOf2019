@@ -18,6 +18,7 @@ const App = () => {
 
   const [isDetailsOpen, setIsDetailsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
+  const [activeIndexWhenOpeningDetails, setActiveIndexWhenOpeningDetails] = useState(-1);
   const [isMenuVisible, setIsMenuVisible] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('movies');
 
@@ -37,6 +38,7 @@ const App = () => {
     setSelectedCategory(category);
     setIsDetailsOpen(true);
     showMenu();
+    setActiveIndexWhenOpeningDetails(activeIndex);
   }
 
   const closeDetailsView = () => {
@@ -72,7 +74,12 @@ const App = () => {
         }}
       />
 
-      <TransitionScreen category={selectedCategory} isOpen={isDetailsOpen} activeIndex={activeIndex} onClose={() => closeDetailsView()}/>
+      <TransitionScreen 
+        category={selectedCategory} 
+        isOpen={isDetailsOpen} 
+        activeIndex={activeIndexWhenOpeningDetails} 
+        onClose={() => closeDetailsView()}
+      />
     </div>      
   );
 }

@@ -20,7 +20,7 @@ const BestTechnical = ({openDetailsView}) => {
           <main className="page-content right-photo">
             
             <div>
-              <p>It was a really good year 2019 due to the passion that I managed to maintain on a high level regarding the web development world. All this web development ecosystem is so big and hot. The possibilities to choose and learn any new skill are endless with so many good features and libraries. Just thinking on how the Flexbox and CSS Grid changed the layout games.</p>
+              <p>2019 was a really good year for me mainly due to the passion that I managed to maintain on a high level to learn new stuff. All this web development ecosystem is so hot right now and expanding in ways that years ago was hard to imagine. The possibilities to choose and learn any new skill are endless with so many good features and libraries. Just thinking on how the Flexbox and CSS Grid changed the layout games.</p>
 
               <p>Also the browsers are better in implementing and supporting new features. And all I can say is that it's a joy to be a frontend developer these days.</p>
             </div>
