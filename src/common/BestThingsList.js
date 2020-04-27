@@ -30,7 +30,7 @@ const bestThings = {
     },
     {
       title: 'Love, Death & Robots',
-      description: 'I don\'t like to start any new tv series because I know I can get easily addicted to them. But do I make excepetions for animations. And I\'m glad I did with this one. Especially cause every episode is a new story. So original. Hope there\'ll be a season two.',
+      description: 'I don\'t like to start any new tv series because I know I can get easily addicted to them. But I do make some excepetions for animations. And I\'m glad I did with this one. Every episode is a new highly entertaining story. Hope there\'ll be a season two.',
       year: '(2019 - )',
       link: 'https://www.imdb.com/title/tt9561862',
       thumbnail: require('../assets/thumbnails/movies/lovedeathrobots.jpg')
@@ -44,7 +44,7 @@ const bestThings = {
     },
     {
       title: 'Knives Out',
-      description: 'Excellent story, witty, the perfect detective movie for me. It\'s highly entertaining, can\'t imagine anyone getting bored with this one.',
+      description: 'Excellent story, witty, the perfect detective movie for me. It\'s a masterful thrill ride, can\'t imagine anyone getting bored with this one.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt8946378',
       thumbnail: require('../assets/thumbnails/movies/knivesout.jpg')
@@ -58,14 +58,14 @@ const bestThings = {
     },
     {
       title: 'Capernaum',
-      description: 'The only category in oscars that really interests me is the one for the best foreign language film. And this movie coming from Lebanon was nominated for that category. I love dramas and slow paced movies and this one is just another reason why.',
+      description: 'The only category in oscars that really interests me is the one for the best foreign language film. And this movie coming from Lebanon was nominated for that category. It was beautiful and heartbreaking at the same time. But I love dramas and slow paced movies.',
       year: '2018',
       link: 'https://www.imdb.com/title/tt8267604',
       thumbnail: require('../assets/thumbnails/movies/capernaum.jpg')
     },
     {
       title: 'Green Book',
-      description: 'Won three oscars in 2019, one of them for the best movie of the year. So there\'s not much to add. Totally deserved it.',
+      description: 'Great movie about two individuals divided by race, education and class in the 1960\'s America and how their relationship benefits them both. Won three oscars in 2019, one of them for the best movie of the year. Totally deserved it.',
       year: '2018',
       link: 'https://www.imdb.com/title/tt6966692',
       thumbnail: require('../assets/thumbnails/movies/greenbook.jpg')
@@ -81,7 +81,7 @@ const bestThings = {
     },
     {
       title: 'Kedi',
-      description: 'The story of seven cats living on streets of Istanbul. Each with their own distinctive personalities being described by the people they interact with. The beautiful cinematography was a treat to watch.',
+      description: 'The story of seven cats living on the streets of Istanbul. Each with their own distinctive personalities being described by the people they interact with. The beautiful cinematography was a treat to watch, the viewer getting to see the world through a cat\'s eyes.',
       year: '2016',
       link: 'https://www.imdb.com/title/tt4420704',
       thumbnail: require('../assets/thumbnails/documentaries/kedi.jpg')
@@ -95,7 +95,7 @@ const bestThings = {
     },
     {
       title: 'Amy',
-      description: 'A film about the life and death of Amy Winehouse that shows extensive unseen footage and unheard tracks. It is a very honest and emotional movie that shows her rise to fame and her feelings about it.',
+      description: 'A film about the life and death of Amy Winehouse with extensive unseen footage and unheard tracks. It is a very honest and emotional movie that shows her rise to fame and her feelings about it.',
       year: '2015',
       link: 'https://www.imdb.com/title/tt2870648',
       thumbnail: require('../assets/thumbnails/documentaries/amy.jpg')
@@ -109,10 +109,17 @@ const bestThings = {
     },
     {
       title: 'I Am Alive: Surviving the Andes Plane Crash',
-      description: 'In 1972 a plane with a Uruguayan rugby team crashed in the snow-covered Andes Mountains. A 72-day struggle for survival followed everyone thought they were dead. It is one of the most amazing survival stories to date.',
+      description: 'In 1972 a plane with a Uruguayan rugby team crashed in the snow-covered Andes Mountains. A 72-day struggle for survival followed, while everyone thought they were dead. It is one of the most amazing survival stories to date.',
       year: '2010',
       link: 'https://www.imdb.com/title/tt1776935',
       thumbnail: require('../assets/thumbnails/documentaries/iamalive.jpg')
+    },
+    {
+      title: 'Formula 1: Drive to Survive',
+      description: 'I haven\'t seen any F1 race for ages before seeing this series on netflix. But still I found it very entertaining. A slick production with plenty of appeal for the uninitiated.',
+      year: '2019',
+      link: 'https://www.imdb.com/title/tt8289930',
+      thumbnail: require('../assets/thumbnails/documentaries/formula1.jpg')
     },
     {
       title: 'The Eagle Huntress',
@@ -127,13 +134,6 @@ const bestThings = {
       year: '2017',
       link: 'https://www.imdb.com/title/tt5598102',
       thumbnail: require('../assets/thumbnails/documentaries/facesplaces.jpg')
-    },
-    {
-      title: 'Formula 1: Drive to Survive',
-      description: 'I haven\'t seen any F1 race for ages before seeing this series on netflix. But still I found it very entertaining. A slick production with plenty of appeal for the uninitiated.',
-      year: '2019',
-      link: 'https://www.imdb.com/title/tt8289930',
-      thumbnail: require('../assets/thumbnails/documentaries/formula1.jpg')
     },
     {
       title: 'Dear Zachary: A Letter to a Son About His Father',
@@ -275,7 +275,7 @@ const bestThings = {
     },
     {
       title: 'Alternativa Fundamentală | Solomon Marcus | TEDxCluj',
-      description: 'I\'ve first seen this university math professor that is no longer with us at a tv show with Neagu Djuvara, another personality that I looked up to. I was fascinated by his intelligence and his kind way of talking. In this TED Talk he shares 10 human needs that are fundamental for a human being. Nothing groundbreaking, but still I enjoy his wisdom.',
+      description: 'I\'ve first seen this university math professor that is no longer with us at a tv show with Neagu Djuvara, another personality that I looked up to. I was fascinated by his intelligence and his kind way of talking. In this TED Talk he shares 10 human needs that are fundamental for us. Nothing groundbreaking, but still I enjoy his wisdom.',
       link: 'https://www.youtube.com/watch?v=qZrtnwkZkwI',
       thumbnail: require('../assets/thumbnails/youtube/solomon.jpg')
     },
@@ -287,13 +287,13 @@ const bestThings = {
     },
     {
       title: 'Izolaţi în România',
-      description: 'If drama is my favorite genre when it comes to movies, depressive and melancholic songs are the ones I\'m most attracted to, no wonder this program touched my heart. There are more episodes that I enjoyed, all showing the hard life that isolated people from Romania are going through. Your problems suddently don\'t seem so big anymore after watching this.',
+      description: 'If drama is my favorite genre when it comes to movies, depressive and melancholic songs are the ones I\'m most attracted to, no wonder this program touched my heart. There are more episodes that I enjoyed, all showing the hard life that isolated people from Romania are going through. Your problems suddently don\'t seem that big anymore after watching this.',
       link: 'https://www.youtube.com/watch?v=0-UrCuNXuHc',
       thumbnail: require('../assets/thumbnails/youtube/izolati.jpg')
     },
     {
       title: 'Echilibru între carieră de top si viaţă personală - Mircea Miclea',
-      description: 'I\'ve seen him talking at Betfair this past year and his energy and knowledge was captivating. Since then I\'ve seen all the videos on youtube with him. All of them providing such a great value. He\'s a proffesor at a univeristy in Cluj, a psychologist and for a brief period of time was even the minister of education.',
+      description: 'I\'ve seen him talking at Betfair this past year and his energy and knowledge were captivating. Since then I\'ve seen all the videos on youtube with him. All of them providing such a great value. He\'s a proffesor at a univeristy in Cluj, a psychologist and for a brief period of time was even the minister of education.',
       link: 'https://www.youtube.com/watch?v=GceJLxXA438',
       thumbnail: require('../assets/thumbnails/youtube/miclea.jpg')
     },

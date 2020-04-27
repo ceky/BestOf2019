@@ -9,12 +9,7 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
 
   useEffect(() => {
     if (isOpen) {
-      setTimeout(() => {
-        document.getElementById('fullpage').style.visibility = 'hidden';
-        document.getElementsByTagName('html')[0].style.overflow = 'auto';
-        document.getElementsByTagName('body')[0].style.overflow = 'auto';
-        document.getElementsByTagName('html')[0].scrollTop = 0;
-      }, 700);
+      // document.getElementsByTagName('html')[0].style.overflow = 'auto';
     }
   }, [isOpen]);
 
@@ -25,13 +20,8 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
   const onClickClose = () => {
     onClose();
 
-    document.getElementById('fullpage').style.visibility = 'visible';
-    document.getElementsByTagName('html')[0].style.overflow = 'hidden';
-    document.getElementsByTagName('body')[0].style.overflow = 'hidden';
-    document.getElementsByTagName('html')[0].scrollTop = 0;
-    setTimeout(() => {
-      window.fullpageApi.silentMoveTo(activeIndex);
-    }, 50);
+    // document.getElementsByTagName('html')[0].style.overflow = 'hidden';
+    window.fullpageApi.silentMoveTo(activeIndex);
   }
 
   const onOpenLink = (url) => {
