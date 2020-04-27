@@ -169,6 +169,10 @@
 
 @media only screen and (max-width: 600px) {
   .transition-screen {
+    .desktop {
+      display: none;
+    }
+
     .list {
       .list-item {
         display: flex;
@@ -186,6 +190,10 @@
 
 @media only screen and (min-width: 600px) {
   .transition-screen {
+    .mobile {
+      display: none;
+    }
+
     .list {
       .list-item {
         img {
