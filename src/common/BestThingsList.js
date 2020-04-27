@@ -74,70 +74,70 @@ const bestThings = {
   documentaries: [
     {
       title: 'Chasing Ice',
-      description: 'zaaaa',
+      description: 'Environmental photographer James Balog heads to Greenland, Iceland and Alaska in order to capture images that will help to convey the effects of global warming. He and his team deploy cameras that utilize time-lapse photography across various places in the Arctic to capture the melting of the glaciers.',
       year: '2012',
       link: 'https://www.imdb.com/title/tt1579361',
       thumbnail: require('../assets/thumbnails/documentaries/chasingice.jpg')
     },
     {
       title: 'Kedi',
-      description: 'rewqz',
+      description: 'The story of seven cats living on streets of Istanbul. Each with their own distinctive personalities being described by the people they interact with. The beautiful cinematography was a treat to watch.',
       year: '2016',
       link: 'https://www.imdb.com/title/tt4420704',
       thumbnail: require('../assets/thumbnails/documentaries/kedi.jpg')
     },
     {
       title: 'The Dawn Wall',
-      description: 'zzzz',
+      description: 'Free Solo was another climbing documentary that won the Oscars last year. But this one was just as good, with Tommy Caldwell attempting to free style climb the vertical 3000-foot rock of El Capitan.',
       year: '2017',
       link: 'https://www.imdb.com/title/tt7286916',
       thumbnail: require('../assets/thumbnails/documentaries/dawnwall.jpg')
     },
     {
       title: 'Amy',
-      description: 'gsqqqdf',
+      description: 'A film about the life and death of Amy Winehouse that shows extensive unseen footage and unheard tracks. It is a very honest and emotional movie that shows her rise to fame and her feelings about it.',
       year: '2015',
       link: 'https://www.imdb.com/title/tt2870648',
       thumbnail: require('../assets/thumbnails/documentaries/amy.jpg')
     },
     {
       title: 'The Game Changers',
-      description: 'oooooooooo',
+      description: 'Probably the most hyped documentary of the year. It\'s about the benefits of a plant-based eating for athletes. A bit exaggerated in some of the parts, but a good one nonetheless.',
       year: '2018',
       link: 'https://www.imdb.com/title/tt7455754',
       thumbnail: require('../assets/thumbnails/documentaries/gamechangers.jpg')
     },
     {
       title: 'I Am Alive: Surviving the Andes Plane Crash',
-      description: 'tre',
+      description: 'In 1972 a plane with a Uruguayan rugby team crashed in the snow-covered Andes Mountains. A 72-day struggle for survival followed everyone thought they were dead. It is one of the most amazing survival stories to date.',
       year: '2010',
       link: 'https://www.imdb.com/title/tt1776935',
       thumbnail: require('../assets/thumbnails/documentaries/iamalive.jpg')
     },
     {
       title: 'The Eagle Huntress',
-      description: 'uuuuuuu',
+      description: 'Stunning photography and fascinating insight into the life of nomads, who live as their ancestors have lived in the mountains of Mongolia. The story is about a young 13 year old girl who aspires to be the first female Kazakh eagle hunter.',
       year: '2016',
       link: 'https://www.imdb.com/title/tt3882074',
       thumbnail: require('../assets/thumbnails/documentaries/eaglehuntress.jpg')
     },
     {
       title: 'Faces Places',
-      description: 'nbv',
+      description: 'Agnes Varda, the French director, was 89 years old when she directed this documentary in collaboration with 33 year old muralist JR. They travel the countryside photographing locals and pasting largesize photos on various objects. Brilliant for art lovers.',
       year: '2017',
       link: 'https://www.imdb.com/title/tt5598102',
       thumbnail: require('../assets/thumbnails/documentaries/facesplaces.jpg')
     },
     {
       title: 'Formula 1: Drive to Survive',
-      description: 'uyt',
+      description: 'I haven\'t seen any F1 race for ages before seeing this series on netflix. But still I found it very entertaining. A slick production with plenty of appeal for the uninitiated.',
       year: '2019',
       link: 'https://www.imdb.com/title/tt8289930',
       thumbnail: require('../assets/thumbnails/documentaries/formula1.jpg')
     },
     {
       title: 'Dear Zachary: A Letter to a Son About His Father',
-      description: 'trwemnb',
+      description: 'What a tense story. Probably the most heart-wrenching and deeply disturbing crime documentary I\'ve seen.',
       year: '2008',
       link: 'https://www.imdb.com/title/tt1152758/',
       thumbnail: require('../assets/thumbnails/documentaries/dearzachary.jpg')
@@ -147,35 +147,35 @@ const bestThings = {
     {
       title: 'The Spinoza Problem',
       author: 'Irvin Yalom',
-      description: '',
+      description: 'Yalom is probably one of the most famous contemporary psychiatrist. And his style is pretty unique considering how he incorporates scientific and historical information in such a way that you don\'t even realize anymore which is fact and which is fiction.',
       link: 'https://www.goodreads.com/book/show/12715691-the-spinoza-problem',
       thumbnail: require('../assets/thumbnails/books/spinoza.jpg')
     },
     {
       title: 'My Brilliant Friend',
       author: 'Elena Ferrante',
-      description: '',
+      description: 'This is a four parts book series. The story happening in Naples is starting in the years after the WW2 and goes on for a few decades through the books. Apart from the story what I loved most about this book was the style in which it was written. I still have one book out of the four pending to read, but that\'s only because I didn\'t want the story to end.',
       link: 'https://www.goodreads.com/book/show/35036409-my-brilliant-friend',
       thumbnail: require('../assets/thumbnails/books/mybrilliantfriend.jpg')
     },
     {
       title: 'Lost Connections: Uncovering the Real Causes of Depression and the Unexpected Solutions',
       author: 'Johann Hari',
-      description: '',
+      description: 'No category without something related to depression, right? The author of the book has been through it for a big part of his life so he knows what he\'s talking. Both because he tried a lot of things to get out of it and also because there\'s a lot of science in this book that he gathered by speaking with lots of specialists to make this book possible. He also has some good TED talks.',
       link: 'https://www.goodreads.com/book/show/34921573-lost-connections',
       thumbnail: require('../assets/thumbnails/books/lostconnections.jpg')
     },
     {
       title: 'Flow: The Psychology of Optimal Experience',
       author: 'Mihaly Csikszentmihalyi',
-      description: '',
+      description: 'Before reading this book Crime and Punishment was the only book that I had in my mind that I have to reread at some point. Now I have two books on the list. Despite it\'s self-helpy title and the topic of happiness being so present I can\'t recommend this enough.',
       link: 'https://www.goodreads.com/book/show/66354.Flow',
       thumbnail: require('../assets/thumbnails/books/flow.jpg')
     },
     {
       title: 'The Count of Monte Cristo',
       author: 'Alexandre Dumas',
-      description: '',
+      description: 'Probably the longest book I\'ve ever read. I started it because Cartarescu said in an interview it was one of his favorites. And I\'m so glad I\'ve read it. One of the greatest stories ever. I can still remember reading it during the Christmas holidays and during a trip to Vienna on the train from Cluj in January.',
       link: 'https://www.goodreads.com/book/show/7126.The_Count_of_Monte_Cristo',
       thumbnail: require('../assets/thumbnails/books/montecristo.jpg')
     }
