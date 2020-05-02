@@ -173,15 +173,53 @@
       display: none;
     }
 
-    .list {
-      .list-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    .mobile {
+      height: calc(100% - 100px);
 
-        p {
-          text-align: center;
+      .mobile-carousel {
+        height: 100%;
+        list-style-type: none;
+        padding: 0;
+
+        .flickity-viewport {
+          height: 100% !important;
+        }
+
+        .list-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+
+          img {
+            clip-path: polygon(
+              0% 0%,
+              100% 0%,
+              100% 90%,
+              75% 90%,
+              75% 100%,
+              64% 90%,
+              0 90%
+            );
+          }
+          .text-container {
+            padding: 1rem 2rem 0 2rem;
+            color: white;
+
+            .title {
+              text-transform: uppercase;
+              font-size: 1.4em;
+            }
+
+            .description {
+              font-style: italic;
+            }
+
+            p {
+              text-align: center;
+            }
+          }
         }
       }
     }

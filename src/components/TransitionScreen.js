@@ -1,11 +1,19 @@
 import React, {useEffect} from 'react';
 import {useSpring, animated} from 'react-spring';
+import Flickity from 'flickity';
+import 'flickity/dist/flickity.min.css';
 
 import './../scss/TransitionScreen.scss';
 import closeBtn from '../assets/close.svg';
 import bestThings from './../common/BestThingsList';
 
 const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
+
+  useEffect(() => {
+    var flickity = new Flickity('.mobile-carousel', {
+      wrapAround: true,
+    });
+  }, []);
 
   useEffect(() => {
     if (isOpen) {
@@ -54,7 +62,7 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
       </div>
 
       <div className="mobile">
-        <ul className="list">
+        <ul className="mobile-carousel">
 
           { bestThings[category].map((item, key) =>
             (<li key={key} className="list-item" onClick={() => onOpenLink(item.link)}>
