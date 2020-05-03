@@ -17,6 +17,19 @@ html {
   font-size: 14px;
 }
 
+@media (max-width: 23rem) {
+  // 370px and below
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 23rem) {
+  html {
+    font-size: 14px;
+  }
+}
+
 @media (min-width: 30rem) {
   html {
     font-size: 15px;
