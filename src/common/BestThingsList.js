@@ -145,6 +145,41 @@ const bestThings = {
   ].reverse(),
   books: [
     {
+      title: 'Gratitude',
+      author: 'Oliver Sacks',
+      description: 'A collection of four beautiful and moving essays published in The New York Times shortly before and after he was diagnosed with metastatic cancer.',
+      link: 'https://www.goodreads.com/book/show/27161964-gratitude',
+      thumbnail: require('../assets/thumbnails/books/gratitude.jpg')
+    },
+    {
+      title: 'Adèle',
+      author: 'Leïla Slimani',
+      description: 'A dark tale of the struggle of a wife, a mother with a child who has a sex addiction and leads a secret life to run away from her depression and her frustrations.',
+      link: 'https://www.goodreads.com/book/show/40265073-ad-le',
+      thumbnail: require('../assets/thumbnails/books/capcaunul.jpg')
+    },
+    {
+      title: 'L\'Autre qu\'on adorait',
+      author: 'Catherine Cusset',
+      description: '',
+      link: 'https://www.goodreads.com/book/show/31166305-l-autre-qu-on-adorait',
+      thumbnail: require('../assets/thumbnails/books/celalalt.jpg')
+    },
+    {
+      title: 'Information is Beautiful',
+      author: 'David McCandless',
+      description: 'Amazing visuals that really gets you to love statistics and information! And plenty of unknown facts in beautiful and innovative ways of presentation.',
+      link: 'https://www.goodreads.com/book/show/7249817-information-is-beautiful',
+      thumbnail: require('../assets/thumbnails/books/information.jpg')
+    },
+    {
+      title: 'Factfulness: Ten Reasons We\'re Wrong About the World – and Why Things Are Better Than You Think',
+      author: 'Hans Rosling',
+      description: 'This is a fascinating book looking at how the world really is today and highlighting how ignorant we are of the major progress made in eradicating poverty & disease over the last 40-50 years.',
+      link: 'https://www.goodreads.com/book/show/34890015-factfulness',
+      thumbnail: require('../assets/thumbnails/books/factfulness.jpg')
+    },
+    {
       title: 'The Spinoza Problem',
       author: 'Irvin Yalom',
       description: 'Yalom is probably one of the most famous contemporary psychiatrist. And his style is pretty unique considering how he incorporates scientific and historical information in such a way that you don\'t even realize anymore which is fact and which is fiction.',

@@ -181,6 +181,13 @@
         list-style-type: none;
         padding: 0;
 
+        // TODO might wanna delete this
+        &.reduced-height {
+          .flickity-page-dots {
+            bottom: 10px;
+          }
+        }
+
         .flickity-viewport {
           height: 100% !important;
         }

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import {useSpring, animated} from 'react-spring';
 import Flickity from 'flickity';
 import 'flickity/dist/flickity.min.css';
@@ -9,17 +9,19 @@ import bestThings from './../common/BestThingsList';
 
 const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
 
+  const [flickity, setFlickity] = useState({});
+
   useEffect(() => {
-    var flickity = new Flickity('.mobile-carousel', {
+    setFlickity(new Flickity('.mobile-carousel', {
       wrapAround: true,
-    });
+    }));
   }, []);
 
   useEffect(() => {
     if (isOpen) {
       document.getElementById('transition-screen').scrollTop = 0;
     }
-  }, [isOpen]);
+  }, [flickity, isOpen]);
 
   const { y } = useSpring({
     y: isOpen ? 0 : 100
@@ -27,6 +29,10 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
 
   const onClickClose = () => {
     onClose();
+
+    setTimeout(() => {
+      flickity.select(0);
+    }, 500);    
 
     window.fullpageApi.silentMoveTo(activeIndex);
   }
@@ -62,7 +68,7 @@ const TransitionScreen = ({category, isOpen, activeIndex, onClose}) => {
       </div>
 
       <div className="mobile">
-        <ul className="mobile-carousel">
+        <ul className={"mobile-carousel " + (category === 'documentaries' ? 'reduced-height' : '')}>
 
           { bestThings[category].map((item, key) =>
             (<li key={key} className="list-item" onClick={() => onOpenLink(item.link)}>
