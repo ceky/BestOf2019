@@ -161,7 +161,7 @@ const bestThings = {
     {
       title: 'L\'Autre qu\'on adorait',
       author: 'Catherine Cusset',
-      description: '',
+      description: 'The book follows the story of Thomas, a young man, exuberant, extremly smart, funny, surrounded by friends, loving life, women, literature, Proust especially, music, but suffering from depression. In the first pages we are  presented with the fact that he took his own life when he was 39.',
       link: 'https://www.goodreads.com/book/show/31166305-l-autre-qu-on-adorait',
       thumbnail: require('../assets/thumbnails/books/celalalt.jpg')
     },
@@ -196,7 +196,7 @@ const bestThings = {
     {
       title: 'Lost Connections: Uncovering the Real Causes of Depression and the Unexpected Solutions',
       author: 'Johann Hari',
-      description: 'No category without something related to depression, right? The author of the book has been through it for a big part of his life so he knows what he\'s talking. Both because he tried a lot of things to get out of it and also because there\'s a lot of science in this book that he gathered by speaking with lots of specialists to make this book possible. He also has some good TED talks.',
+      description: 'The author of the book has been through depression for a big part of his life so he knows what he\'s talking. Both because he tried a lot of things to get out of it and but also because there\'s a lot of science in this book that he gathered by speaking with lots of specialists to make this book possible. He also has some good TED talks.',
       link: 'https://www.goodreads.com/book/show/34921573-lost-connections',
       thumbnail: require('../assets/thumbnails/books/lostconnections.jpg')
     },
@@ -345,12 +345,6 @@ const bestThings = {
       description: 'A core principle in functional programming to grasp before coding in react.',
       link: 'https://www.youtube.com/watch?v=4LzcQyZ9JOU',
       thumbnail: require('../assets/thumbnails/technical/immutability.jpg')
-    },
-    {
-      title: "Brad Frost | The Technical Side of Design Systems",
-      description: 'Some good tips if you need to create a design system for your website.',
-      link: 'https://www.youtube.com/watch?v=TgWyyoofKIA',
-      thumbnail: require('../assets/thumbnails/technical/brad.jpg')
     },
     {
       title: "What Are Web Components?",

@@ -19,7 +19,7 @@ const BestDocumentaries = ({openDetailsView}) => {
 
           <main className="page-content right-photo">
             <div>
-              <p>At the beginning of the year I decided to watch 100 documentaries in 2019. For the first three months I've seen more than 10 in each month, being on schedule. But as it usually happens, the enthuziasm starts to fade from the moment you plan something as the time goes on. So by April I've decided to stop it, cause I didn't want to feel this as a burden. I've continued watching some documentaries for the rest of the year, but without any extra pressure.</p>
+              <p>At the beginning of the year I decided to watch 100 documentaries in 2019. For the first three months I've seen more than 10 in each month, being on schedule. But as it usually happens, the enthuziasm starts to fade from the moment you plan something as the time goes on. So by April I've decided to stop it, cause I didn't want to feel this as a burden. I've continued watching some documentaries for the rest of the year however, being one of my favorites genre.</p>
             </div>
             <DocumentaryIcon />
             
